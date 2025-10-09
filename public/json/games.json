@@ -8,6 +8,13 @@
     "proxy": true
   },
   {
+    "name": "Pump Kill 64",
+    "image": "pumpkill.webp",
+    "url": "pumpkill",
+    "new": true,
+    "top": false
+  },
+  {
     "name": "Slow Roads",
     "image": "slowroads.webp",
     "url": "https://slowroads.io/",

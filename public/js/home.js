@@ -20,6 +20,12 @@ function openApp(url) {
 const rngText = document.getElementById("rng-text");
 const greetings = [
   "Hello!",
+  "Happy Halloween!",
+  "Trick or Treat!",
+  "Happy Halloween!",
+  "Trick or Treat!",
+  "Happy Halloween!",
+  "Trick or Treat!",
   "v7 is here!",
   "Freedom",
   "The Best Proxy",
