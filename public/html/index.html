@@ -300,11 +300,47 @@
         visibility: visible;
         transform: translateY(0) scale(1);
       }
+      .promo {
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.9rem;
+        color: var(--text-color);
+        background: var(--bg-2-color);
+        padding: 5px 10px;
+        border-radius: var(--border-radius);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+      }
+      .promo span {
+        background: var(--primary-color);
+        color: #fff;
+        font-size: 0.7rem;
+        padding: 2px 4px;
+        border-radius: 4px;
+        margin-left: 6px;
+      }
+      .ad-info {
+        position: fixed;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.75rem;
+        color: var(--text-color);
+        opacity: 0.6;
+        z-index: 1000;
+      }
     </style>
     <div class="footer">
       <a href="https://github.com/parcoil/lunaar.org" class="link">Github</a>
       <a href="https://dsc.gg/parcoil" class="link">Discord</a>
     </div>
+    <div class="promo">
+      <a href="http://studentofftask.com/">Also check out Student Off Task</a>
+      <span>AD</span>
+    </div>
+    <p class="ad-info">dm "dogecraft" on discord for an ad spot</p>
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/toastify-js"
