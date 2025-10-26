@@ -49,7 +49,13 @@ document.addEventListener("DOMContentLoaded", () => {
       const isChecked = e.target.checked;
 
       localStorage.setItem("stars", isChecked);
-      particlesEl.style.display = isChecked ? "block" : "none";
+      const theme = localStorage.getItem("theme");
+      if (theme === "halloween") {
+        const leafEl = document.getElementById("leaf-container");
+        if (leafEl) leafEl.style.display = isChecked ? "block" : "none";
+      } else {
+        particlesEl.style.display = isChecked ? "block" : "none";
+      }
 
       Toastify({
         text: `Particles ${isChecked ? "Enabled" : "Disabled"}`,
