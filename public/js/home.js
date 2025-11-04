@@ -19,18 +19,15 @@ function openApp(url) {
 
 const rngText = document.getElementById("rng-text");
 const greetings = [
+  "Soixante Sept",
+  "Bayerische Motoren Werke ist schlecht",
   "Hello!",
-  "Happy Halloween!",
-  "Trick or Treat!",
-  "Happy Halloween!",
-  "Trick or Treat!",
-  "Happy Halloween!",
-  "Trick or Treat!",
   "v7 is here!",
   "Freedom",
   "The Best Proxy",
   "Welcome to the best proxy",
   "Welcome",
+  "Day Dreaming 10",
   "こんにちは",
   "こんにちは",
   "こんにちは",

@@ -391,7 +391,7 @@ body[theme="youtube-dark"] {
   --border-color: #3b0909;
 }
 
-body[theme="halloween"] {
+/* body[theme="halloween"] { 
   --primary-color: #f89500;
   --secondary-color: #462e01;
   --accent-color: #b98e00;
@@ -402,7 +402,7 @@ body[theme="halloween"] {
   --text-placeholder-color: #999999;
   --border-color: #3b2909;
 }
-
+*/
 /* 3kh0 Theme */
 body[theme="3kh0"] {
   --primary-color: #22c55e;

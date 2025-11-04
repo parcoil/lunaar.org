@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const navBar = `
 <nav class="navbar">
     <div class="navbar-brand">
-        <a href="/"> <!-- <svg width="20" height="20" viewBox="0 0.587 494.972 413.945" version="1.1" sodipodi:docname="logggo.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+        <a href="/"><svg width="20" height="20" viewBox="0 0.587 494.972 413.945" version="1.1" sodipodi:docname="logggo.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview id="namedview5" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:zoom="0.45235477" inkscape:cx="-63.003646" inkscape:cy="23.21187" inkscape:window-width="1920" inkscape:window-height="949" inkscape:window-x="1920" inkscape:window-y="27" inkscape:window-maximized="1" inkscape:current-layer="svg5"></sodipodi:namedview>
   <defs id="defs1"></defs>
   <path class="st1" d="M 209.353 407.486 C 269.933 407.486 325.261 379.925 361.917 334.762 C 367.339 328.081 361.427 318.321 353.046 319.916 C 257.758 338.064 170.251 265.003 170.251 168.813 C 170.251 113.404 199.913 62.452 248.121 35.018 C 255.552 30.789 253.683 19.522 245.239 17.963 C 233.402 15.78 221.39 14.681 209.353 14.679 C 100.941 14.679 12.95 102.532 12.95 211.083 C 12.95 319.495 100.803 407.486 209.353 407.486 Z" id="path1" style="fill: #7600c3; fill-opacity: 1"></path>
@@ -32,13 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
         " id="path4"></path>
     </g>
   </g>
-</svg> -->       <i
-        class="fa-solid fa-jack-o-lantern"
-        style="
-          color: var(--primary-color);
-          font-size: 35px;
-        "
-      ></i></a>
+</svg></a>
        <!-- <span class="navbar-title">Lunaar</span> -->
     </div>
     <div class="navbar-links">
