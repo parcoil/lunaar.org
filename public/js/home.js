@@ -27,7 +27,6 @@ const greetings = [
   "The Best Proxy",
   "Welcome to the best proxy",
   "Welcome",
-  "Day Dreaming 10",
   "こんにちは",
   "こんにちは",
   "こんにちは",
