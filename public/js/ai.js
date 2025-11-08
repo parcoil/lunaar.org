@@ -82,7 +82,7 @@ class AIChatbot {
       if (!response.ok) {
         const errorData = await response.json();
         throw new Error(
-          errorData.error || errorData.details || `HTTP ${response.status}`
+          errorData.error || errorData.details || `HTTP ${response.status}`,
         );
       }
 
@@ -179,7 +179,7 @@ class AIChatbot {
   saveToHistory(userMessage, aiResponse) {
     this.conversationHistory.push(
       { role: "user", content: userMessage },
-      { role: "assistant", content: aiResponse }
+      { role: "assistant", content: aiResponse },
     );
 
     if (this.conversationHistory.length > 20) {

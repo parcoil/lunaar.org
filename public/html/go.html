@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -50,6 +50,28 @@
         api_host: "https://us.i.posthog.com",
         defaults: "2025-05-24",
       });
+    </script>
+    <script>
+      (function (s) {
+        ((s.dataset.zone = "10008311"),
+          (s.src = "https://forfrogadiertor.com/tag.min.js"));
+      })(
+        [document.documentElement, document.body]
+          .filter(Boolean)
+          .pop()
+          .appendChild(document.createElement("script")),
+      );
+    </script>
+    <script>
+      (function (s) {
+        ((s.dataset.zone = "8806941"),
+          (s.src = "https://gizokraijaw.net/vignette.min.js"));
+      })(
+        [document.documentElement, document.body]
+          .filter(Boolean)
+          .pop()
+          .appendChild(document.createElement("script")),
+      );
     </script>
   </head>
   <body style="overflow: hidden">
@@ -112,8 +134,8 @@
         z-index: -1;
         border-radius: 50%;
         background: var(--primary-color);
-        --_m: conic-gradient(#0000 10%, #000),
-          linear-gradient(#000 0 0) content-box;
+        --_m:
+          conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
         -webkit-mask: var(--_m);
         mask: var(--_m);
         -webkit-mask-composite: source-out;
@@ -216,7 +238,9 @@
         justify-content: start;
         display: flex;
         color: var(--text-color);
-        transition: background 0.18s, color 0.18s;
+        transition:
+          background 0.18s,
+          color 0.18s;
         font-family: inherit;
         letter-spacing: 0.01em;
       }
@@ -366,7 +390,7 @@
           }
           try {
             const res = await fetch(
-              `/api/autocomplete?q=${encodeURIComponent(query)}`
+              `/api/autocomplete?q=${encodeURIComponent(query)}`,
             );
             const suggestions = await res.json();
             autocompleteBox.innerHTML = "";

@@ -12,6 +12,6 @@ self.addEventListener("fetch", (event) => {
         return await uv.fetch(event);
       }
       return await fetch(event.request);
-    })()
+    })(),
   );
 });

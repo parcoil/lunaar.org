@@ -23,10 +23,10 @@
     C = ["GET", "HEAD"],
     g = class extends h.EventEmitter {
       constructor(e = __uv$config) {
-        super(),
+        (super(),
           e.prefix || (e.prefix = "/service/"),
           (this.config = e),
-          (this.bareClient = new h.BareClient());
+          (this.bareClient = new h.BareClient()));
       }
       route({ request: e }) {
         return !!e.url.startsWith(location.origin + this.config.prefix);
@@ -40,12 +40,12 @@
           typeof this.config.construct == "function" &&
             this.config.construct(t, "service");
           let w = await t.cookie.db();
-          (t.meta.origin = location.origin),
-            (t.meta.base = t.meta.url = new URL(t.sourceUrl(e.url)));
+          ((t.meta.origin = location.origin),
+            (t.meta.base = t.meta.url = new URL(t.sourceUrl(e.url))));
           let o = new v(
             e,
             t,
-            C.includes(e.method.toUpperCase()) ? null : await e.blob()
+            C.includes(e.method.toUpperCase()) ? null : await e.blob(),
           );
           if (
             (t.meta.url.protocol === "blob:" &&
@@ -53,15 +53,15 @@
             e.referrer && e.referrer.startsWith(location.origin))
           ) {
             let i = new URL(t.sourceUrl(e.referrer));
-            (o.headers.origin ||
+            ((o.headers.origin ||
               (t.meta.url.origin !== i.origin && e.mode === "cors")) &&
               (o.headers.origin = i.origin),
-              (o.headers.referer = i.href);
+              (o.headers.referer = i.href));
           }
           let f = (await t.cookie.getCookies(w)) || [],
             x = t.cookie.serialize(f, t.meta, !1);
-          (o.headers["user-agent"] = navigator.userAgent),
-            x && (o.headers.cookie = x);
+          ((o.headers["user-agent"] = navigator.userAgent),
+            x && (o.headers.cookie = x));
           let p = new u(o, null, null);
           if ((this.emit("request", p), p.intercepted)) return p.returnValue;
           s = o.blob ? "blob:" + location.origin + o.url.pathname : o.url;
@@ -87,15 +87,14 @@
             if (!/\s*?((inline|attachment);\s*?)filename=/i.test(i)) {
               let n = /^\s*?attachment/i.test(i) ? "attachment" : "inline",
                 [m] = new URL(c.finalURL).pathname.split("/").slice(-1);
-              r.headers[
-                "content-disposition"
-              ] = `${n}; filename=${JSON.stringify(m)}`;
+              r.headers["content-disposition"] =
+                `${n}; filename=${JSON.stringify(m)}`;
             }
           }
           if (
             (r.headers["set-cookie"] &&
               (Promise.resolve(
-                t.cookie.setCookies(r.headers["set-cookie"], w, t.meta)
+                t.cookie.setCookies(r.headers["set-cookie"], w, t.meta),
               ).then(() => {
                 self.clients.matchAll().then(function (i) {
                   i.forEach(function (n) {
@@ -123,15 +122,15 @@
                   ]
                     .map((n) => JSON.stringify(n))
                     .join(",");
-                  (r.body = `if (!self.__uv) {
+                  ((r.body = `if (!self.__uv) {
                                 ${t.createJsInject(
                                   t.cookie.serialize(f, t.meta, !0),
-                                  e.referrer
+                                  e.referrer,
                                 )}
                             importScripts(${i});
                             }
 `),
-                    (r.body += t.js.rewrite(await c.text()));
+                    (r.body += t.js.rewrite(await c.text())));
                 }
                 break;
               case "style":
@@ -168,7 +167,7 @@
                       t.clientScript,
                       t.configScript,
                       t.cookie.serialize(f, t.meta, !0),
-                      e.referrer
+                      e.referrer,
                     ),
                   });
                 }
@@ -201,15 +200,15 @@
   self.UVServiceWorker = g;
   var y = class {
       constructor(e, s) {
-        (this.request = e),
+        ((this.request = e),
           (this.raw = s),
           (this.ultraviolet = e.ultraviolet),
-          (this.headers = {});
+          (this.headers = {}));
         for (let t in s.rawHeaders)
           this.headers[t.toLowerCase()] = s.rawHeaders[t];
-        (this.status = s.status),
+        ((this.status = s.status),
           (this.statusText = s.statusText),
-          (this.body = s.body);
+          (this.body = s.body));
       }
       get url() {
         return this.request.url;
@@ -228,7 +227,7 @@
     },
     v = class {
       constructor(e, s, t = null) {
-        (this.ultraviolet = s),
+        ((this.ultraviolet = s),
           (this.request = e),
           (this.headers = Object.fromEntries(e.headers.entries())),
           (this.method = e.method),
@@ -237,7 +236,7 @@
           (this.redirect = e.redirect),
           (this.credentials = "omit"),
           (this.mode = e.mode === "cors" ? e.mode : "same-origin"),
-          (this.blob = !1);
+          (this.blob = !1));
       }
       get url() {
         return this.ultraviolet.meta.url;
@@ -256,11 +255,11 @@
       #e;
       #t;
       constructor(e = {}, s = null, t = null) {
-        (this.#e = !1),
+        ((this.#e = !1),
           (this.#t = null),
           (this.data = e),
           (this.target = s),
-          (this.that = t);
+          (this.that = t));
       }
       get intercepted() {
         return this.#e;
@@ -269,7 +268,7 @@
         return this.#t;
       }
       respondWith(e) {
-        (this.#t = e), (this.#e = !0);
+        ((this.#t = e), (this.#e = !0));
       }
     };
   function E(a, e) {
@@ -277,7 +276,7 @@
         errorTrace.value = ${JSON.stringify(a)};
         fetchedURL.textContent = ${JSON.stringify(e)};
         for (const node of document.querySelectorAll("#uvHostname")) node.textContent = ${JSON.stringify(
-          location.hostname
+          location.hostname,
         )};
         reload.addEventListener("click", () => location.reload());
         uvVersion.textContent = ${JSON.stringify("3.2.10")};

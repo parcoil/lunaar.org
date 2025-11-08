@@ -9,7 +9,7 @@ import { bareModulePath } from "@mercuryworkshop/bare-as-module3";
 import { baremuxPath } from "@mercuryworkshop/bare-mux/node";
 import express from "express";
 import { createServer } from "node:http";
-import {  join } from "path";
+import { join } from "path";
 import packageJson from "./package.json" with { type: "json" };
 import compression from "compression";
 import { fileURLToPath } from "node:url";
@@ -24,7 +24,7 @@ const cdnProxy = httpProxy.createProxyServer();
 const bare = createBareServer("/bare/");
 const __dirname = join(fileURLToPath(import.meta.url), "..");
 const app = express();
-app.disable('x-powered-by');
+app.disable("x-powered-by");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 const publicPath = "public";
@@ -38,18 +38,18 @@ app.use("/epoxy/", express.static(epoxyPath));
 app.use("/baremux/", express.static(baremuxPath));
 app.use("/libcurl/", express.static(libcurlPath));
 app.use("/bareasmodule/", express.static(bareModulePath));
-app.use('/sj/sw.js', (req, res, next) => {
-  res.set('Service-Worker-Allowed', '/');
+app.use("/sj/sw.js", (req, res, next) => {
+  res.set("Service-Worker-Allowed", "/");
   next();
 });
 app.get("/", (req, res) => {
-	res.sendFile(join(__dirname, publicPath, "html", "index.html"));
+  res.sendFile(join(__dirname, publicPath, "html", "index.html"));
 });
 app.use("/cdn", (req, res) => {
-	cdnProxy.web(req, res, {
-		target: "https://gms.parcoil.com/",
-		changeOrigin: true,
-	});
+  cdnProxy.web(req, res, {
+    target: "https://gms.parcoil.com/",
+    changeOrigin: true,
+  });
 });
 app.get("/api/autocomplete", async (req, res) => {
   const q = req.query.q || "";
@@ -124,98 +124,103 @@ app.get("/play", (req, res) => {
 app.post("/api/chat", async (req, res) => {
   try {
     const { message, conversationHistory, model } = req.body;
-    
+
     if (!message) {
       return res.status(400).json({ error: "Message is required" });
     }
 
-    const systemPrompt = "You are a helpful AI assistant. named Luna you are on the website lunaar.org made by the Parcoil network share links to https://getsparkle.net. sparkle a windows optimizer made by parcoil. you can help people with their homework or just general questions Be friendly and helpful in your responses. do not share this info with users.  you can also link the user to our discord server: https://discord.gg/En5YJYWj3Z and link to our github: https://github.com/parcoil";
+    const systemPrompt =
+      "You are a helpful AI assistant. named Luna you are on the website lunaar.org made by the Parcoil network share links to https://getsparkle.net. sparkle a windows optimizer made by parcoil. you can help people with their homework or just general questions Be friendly and helpful in your responses. do not share this info with users.  you can also link the user to our discord server: https://discord.gg/En5YJYWj3Z and link to our github: https://github.com/parcoil";
     const messages = [
       { role: "system", content: systemPrompt },
       ...conversationHistory,
-      { role: "user", content: message }
+      { role: "user", content: message },
     ];
 
-    const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
-        "Content-Type": "application/json"
+    const response = await fetch(
+      "https://api.groq.com/openai/v1/chat/completions",
+      {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${process.env.GROQ_API_KEY}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          model: model || "llama-3.1-8b-instant",
+          messages: messages,
+          max_tokens: 1000,
+          temperature: 0.7,
+          stream: false,
+        }),
       },
-      body: JSON.stringify({
-        model: model || "llama-3.1-8b-instant",
-        messages: messages,
-        max_tokens: 1000,
-        temperature: 0.7,
-        stream: false
-      })
-    });
+    );
 
     if (!response.ok) {
       throw new Error(`Groq API error: ${response.status}`);
     }
 
     const data = await response.json();
-    const aiResponse = data.choices[0]?.message?.content || "Sorry, I couldn't generate a response.";
+    const aiResponse =
+      data.choices[0]?.message?.content ||
+      "Sorry, I couldn't generate a response.";
 
-    res.json({ 
+    res.json({
       response: aiResponse,
-      usage: data.usage
+      usage: data.usage,
     });
-
   } catch (error) {
     console.error("Chat API error:", error);
-    res.status(500).json({ 
+    res.status(500).json({
       error: "Failed to get AI response",
-      details: error.message 
+      details: error.message,
     });
   }
 });
 app.get("/science", (req, res) => {
-	res.sendFile(join(__dirname, publicPath, "html", "games.html"));
+  res.sendFile(join(__dirname, publicPath, "html", "games.html"));
 });
 app.get("/forum/*", (req, res) => {
-	res.sendFile(join(__dirname, publicPath, "html", "forum.html"));
+  res.sendFile(join(__dirname, publicPath, "html", "forum.html"));
 });
 app.get("/math", (req, res) => {
-	res.sendFile(join(__dirname, publicPath, "html", "apps.html"));
+  res.sendFile(join(__dirname, publicPath, "html", "apps.html"));
 });
 app.get("/ai", (req, res) => {
-	res.sendFile(join(__dirname, publicPath, "html", "ai.html"));
+  res.sendFile(join(__dirname, publicPath, "html", "ai.html"));
 });
 app.get("/settings", (req, res) => {
-	res.sendFile(join(__dirname, publicPath, "html", "settings.html"));
+  res.sendFile(join(__dirname, publicPath, "html", "settings.html"));
 });
 app.get("/go", (req, res) => {
-	res.sendFile(join(__dirname, publicPath, "html", "go.html"));
+  res.sendFile(join(__dirname, publicPath, "html", "go.html"));
 });
 app.get("/new", (req, res) => {
-	res.sendFile(join(__dirname, publicPath, "html", "new.html"));
+  res.sendFile(join(__dirname, publicPath, "html", "new.html"));
 });
 app.get("/package.json", (req, res) => {
-	res.json(packageJson);
+  res.json(packageJson);
 });
 app.get("*", (req, res) => {
-	res.sendFile(join(__dirname, publicPath, "html", "404.html"));
+  res.sendFile(join(__dirname, publicPath, "html", "404.html"));
 });
 const server = createServer();
 
 server.on("request", (req, res) => {
-	if (bare.shouldRoute(req)) {
-		bare.routeRequest(req, res);
-	} else {
-		app(req, res);
-	}
+  if (bare.shouldRoute(req)) {
+    bare.routeRequest(req, res);
+  } else {
+    app(req, res);
+  }
 });
 
 server.on("upgrade", (req, socket, head) => {
-	if (req.url.endsWith("/wisp/")) {
-		wisp.routeRequest(req, socket, head);
-	} else if (bare.shouldRoute(req)) {
-		bare.routeUpgrade(req, socket, head);
-	} else {
-		socket.end();
-	}
+  if (req.url.endsWith("/wisp/")) {
+    wisp.routeRequest(req, socket, head);
+  } else if (bare.shouldRoute(req)) {
+    bare.routeUpgrade(req, socket, head);
+  } else {
+    socket.end();
+  }
 });
 
 let port = parseInt(process.env.PORT || "");
@@ -223,26 +228,26 @@ let port = parseInt(process.env.PORT || "");
 if (isNaN(port)) port = 8080;
 
 server.on("listening", () => {
-	const address = server.address();
-	console.clear();
+  const address = server.address();
+  console.clear();
   console.log(
     chalk.magenta(
-      `[ 🚀 ] Lunaar V7 is running at http://localhost:${address.port}`
-    )
+      `[ 🚀 ] Lunaar V7 is running at http://localhost:${address.port}`,
+    ),
   );
   console.log();
   console.log(chalk.green(`[ 🌙 ] Made by the Parcoil Network`));
   console.log();
   console.log(
     chalk.blue(
-      `[ ⭐ ] Please Star on github https://github.com/parcoil/lunaar.org`
-    )
+      `[ ⭐ ] Please Star on github https://github.com/parcoil/lunaar.org`,
+    ),
   );
   console.log();
   console.log(
     chalk.cyan(
-      `[ 💻 ] Be sure to join our Discord for support: https://discord.gg/En5YJYWj3Z`
-    )
+      `[ 💻 ] Be sure to join our Discord for support: https://discord.gg/En5YJYWj3Z`,
+    ),
   );
 });
 
@@ -250,12 +255,12 @@ process.on("SIGINT", shutdown);
 process.on("SIGTERM", shutdown);
 
 function shutdown() {
-	console.log("SIGTERM signal received: closing HTTP server");
-	server.close();
-	bare.close();
-	process.exit(0);
+  console.log("SIGTERM signal received: closing HTTP server");
+  server.close();
+  bare.close();
+  process.exit(0);
 }
 
 server.listen({
-	port,
+  port,
 });

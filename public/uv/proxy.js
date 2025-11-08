@@ -108,7 +108,7 @@ function encodeTEXT(text) {
       break;
     case "startpage":
       baseUrl = `https://www.startpage.com/sp/search?query=${encodeURIComponent(
-        text
+        text,
       )}`;
       break;
     default:

@@ -1,7 +1,7 @@
 console.log(
   `%cLunaar%c v7 - home.js Loaded`,
   "font-size: 16px; background-color: #9282fb; border-top-left-radius: 5px; border-bottom-left-radius: 5px; padding: 4px; font-weight: bold;",
-  "font-size: 16px; background-color: #090810; font-weight: bold; padding: 4px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;"
+  "font-size: 16px; background-color: #090810; font-weight: bold; padding: 4px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;",
 );
 
 function openApp(url) {
@@ -11,7 +11,7 @@ function openApp(url) {
   } else {
     sessionStorage.setItem(
       "lpurl",
-      __uv$config.prefix + __uv$config.encodeUrl(url)
+      __uv$config.prefix + __uv$config.encodeUrl(url),
     );
   }
   window.location.href = "/go";
@@ -134,8 +134,8 @@ const existing = isArray ? savedShortcuts : [];
 const missingDefaults = defaults.filter(
   (d) =>
     !existing.some(
-      (s) => (s.url && s.url.toLowerCase()) === d.url.toLowerCase()
-    )
+      (s) => (s.url && s.url.toLowerCase()) === d.url.toLowerCase(),
+    ),
 );
 const combinedShortcuts = [...missingDefaults, ...existing];
 
@@ -261,7 +261,7 @@ function createShortcutElement(name, url, icon) {
       shortcut.onclick = () => openApp(newUrl);
 
       const index = savedShortcuts.findIndex(
-        (s) => s.url === url && s.name === name
+        (s) => s.url === url && s.name === name,
       );
       if (index > -1) {
         savedShortcuts[index] = { name: newName, url: newUrl, icon: newIcon };
@@ -295,7 +295,7 @@ function createShortcutElement(name, url, icon) {
     if (res.isConfirmed) {
       shortcut.remove();
       const index = savedShortcuts.findIndex(
-        (s) => s.name === name && s.url === url
+        (s) => s.name === name && s.url === url,
       );
       if (index > -1) {
         savedShortcuts.splice(index, 1);

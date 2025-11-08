@@ -85,7 +85,9 @@ body {
 
   border: 2px solid var(--border-color);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-  transition: width 0.3s ease, height 0.3s ease;
+  transition:
+    width 0.3s ease,
+    height 0.3s ease;
 }
 .navbar.navbar-proxy {
   border: 2px solid var(--primary-color);
@@ -138,7 +140,9 @@ body {
   display: flex;
   border-radius: var(--border-radius);
   transition: all;
-  transition: background-color 0.2s, color 0.2s;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
 }
 .navbar-link.pro {
   padding: 10px;
@@ -219,7 +223,9 @@ body {
   border: none;
   border-radius: var(--border-radius);
   cursor: pointer;
-  transition: background-color 0.2s, transform 0.2s;
+  transition:
+    background-color 0.2s,
+    transform 0.2s;
   font-weight: 600;
   border: 2px solid transparent;
 }
@@ -492,7 +498,9 @@ main {
   border-radius: var(--border-radius); */
   text-align: center;
   color: var(--text-color);
-  transition: transform 0.2s, background-color 0.2s;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
   gap: 10px;
 }
 .game-item img,
@@ -502,7 +510,9 @@ main {
   object-fit: cover;
   border-radius: 20px;
   background: var(--bg-2-color);
-  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  transition:
+    transform 0.2s ease-in-out,
+    background-color 0.2s ease-in-out;
 }
 
 .game-item img:hover,

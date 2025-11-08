@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const bgSelect = document.getElementById("background-select");
   const bg = localStorage.getItem("backgroundImage");
   const backgroundImageDropdown = localStorage.getItem(
-    "backgroundImageDropdown"
+    "backgroundImageDropdown",
   );
   const bgCustomUrl = localStorage.getItem("customUrl");
   const bgInput = document.getElementById("background-input");
@@ -314,7 +314,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function exportBrowserData(
-  options = { local: true, session: true, cookies: true }
+  options = { local: true, session: true, cookies: true },
 ) {
   let backup = {};
 
