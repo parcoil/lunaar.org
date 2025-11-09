@@ -123,8 +123,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const prxBackend = localStorage.getItem("proxy-backend");
 
-  if (!prxBackend) {
-    localStorage.setItem("proxy-backend", "ultraviolet");
+  if (!prxBackend || prxBackend === "ultraviolet") {
+    localStorage.setItem("proxy-backend", "scramjet");
   }
 
   fetch("/api/version")

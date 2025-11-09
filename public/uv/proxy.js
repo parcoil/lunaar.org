@@ -173,15 +173,15 @@ function start(url) {
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
-  if (localStorage.getItem("proxy-backend") === "scramjet") {
+  if (localStorage.getItem("proxy-backend") === "ultraviolet") {
+    const url = search(address.value, getSearchEngine());
+    start(url);
+  } else {
     const res = window.sjEncodeAndGo(address.value);
 
     console.log(res);
     sessionStorage.setItem("lpurl", res);
     window.location.href = "/go";
-  } else {
-    const url = search(address.value, getSearchEngine());
-    start(url);
   }
 });
 console.log("Proxy started");

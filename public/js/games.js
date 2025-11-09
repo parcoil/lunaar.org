@@ -83,16 +83,16 @@ function renderGames(games) {
     if (game.proxy) {
       img.onclick = (e) => {
         e.preventDefault();
-        if (localStorage.getItem("proxy-backend") === "scramjet") {
-          const tmp = window.sjEncodeAndGo(game.url);
-          sessionStorage.setItem("lpurl", tmp);
-          window.location.href = "/go";
-        } else {
+        if (localStorage.getItem("proxy-backend") === "ultraviolet") {
           sessionStorage.setItem(
             "lpurl",
             __uv$config.prefix + __uv$config.encodeUrl(game.url),
           );
           sessionStorage.setItem("rawurl", game.url);
+          window.location.href = "/go";
+        } else {
+          const tmp = window.sjEncodeAndGo(game.url);
+          sessionStorage.setItem("lpurl", tmp);
           window.location.href = "/go";
         }
       };

@@ -59,7 +59,7 @@
         [document.documentElement, document.body]
           .filter(Boolean)
           .pop()
-          .appendChild(document.createElement("script")),
+          .appendChild(document.createElement("script"))
       );
     </script>
     <script>
@@ -70,7 +70,7 @@
         [document.documentElement, document.body]
           .filter(Boolean)
           .pop()
-          .appendChild(document.createElement("script")),
+          .appendChild(document.createElement("script"))
       );
     </script>
   </head>
@@ -176,7 +176,7 @@
       #tabs {
         display: flex;
         gap: 5px;
-        flex: 1;
+        margin-right: 20px;
         overflow-x: auto;
       }
       .tab {
@@ -390,7 +390,7 @@
           }
           try {
             const res = await fetch(
-              `/api/autocomplete?q=${encodeURIComponent(query)}`,
+              `/api/autocomplete?q=${encodeURIComponent(query)}`
             );
             const suggestions = await res.json();
             autocompleteBox.innerHTML = "";
@@ -425,10 +425,10 @@
             const query = searchInput.value.trim();
             if (query) {
               let urlforprx;
-              if (localStorage.getItem("proxy-backend") === "scramjet") {
-                urlforprx = window.sjEncodeAndGo(query);
-              } else {
+              if (localStorage.getItem("proxy-backend") === "ultraviolet") {
                 urlforprx = window.encodeAny(query);
+              } else {
+                urlforprx = window.sjEncodeAndGo(query);
               }
               const frame = getActiveFrame();
               if (frame) frame.src = urlforprx;

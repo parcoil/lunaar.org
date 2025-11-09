@@ -5,14 +5,14 @@ console.log(
 );
 
 function openApp(url) {
-  if (localStorage.getItem("proxy-backend") === "scramjet") {
-    const tmp = window.sjEncodeAndGo(url);
-    sessionStorage.setItem("lpurl", tmp);
-  } else {
+  if (localStorage.getItem("proxy-backend") === "ultraviolet") {
     sessionStorage.setItem(
       "lpurl",
       __uv$config.prefix + __uv$config.encodeUrl(url),
     );
+  } else {
+    const tmp = window.sjEncodeAndGo(url);
+    sessionStorage.setItem("lpurl", tmp);
   }
   window.location.href = "/go";
 }
