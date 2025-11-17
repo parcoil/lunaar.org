@@ -1,4 +1,4 @@
-import wisp from "wisp-server-node";
+import { server as wisp } from "@mercuryworkshop/wisp-js/server";
 import { createBareServer } from "@tomphttp/bare-server-node";
 import httpProxy from "http-proxy";
 import chalk from "chalk";
@@ -19,6 +19,11 @@ import { execSync } from "node:child_process";
 import { scramjetPath } from "@mercuryworkshop/scramjet/path";
 
 dotenv.config();
+
+Object.assign(wisp.options, {
+  allow_udp_streams: false,
+  dns_servers: ["1.1.1.3", "1.0.0.3"],
+});
 
 const cdnProxy = httpProxy.createProxyServer();
 const bare = createBareServer("/bare/");
@@ -152,7 +157,7 @@ app.post("/api/chat", async (req, res) => {
           temperature: 0.7,
           stream: false,
         }),
-      },
+      }
     );
 
     if (!response.ok) {
@@ -232,22 +237,22 @@ server.on("listening", () => {
   console.clear();
   console.log(
     chalk.magenta(
-      `[ 🚀 ] Lunaar V7 is running at http://localhost:${address.port}`,
-    ),
+      `[ 🚀 ] Lunaar V7 is running at http://localhost:${address.port}`
+    )
   );
   console.log();
   console.log(chalk.green(`[ 🌙 ] Made by the Parcoil Network`));
   console.log();
   console.log(
     chalk.blue(
-      `[ ⭐ ] Please Star on github https://github.com/parcoil/lunaar.org`,
-    ),
+      `[ ⭐ ] Please Star on github https://github.com/parcoil/lunaar.org`
+    )
   );
   console.log();
   console.log(
     chalk.cyan(
-      `[ 💻 ] Be sure to join our Discord for support: https://discord.gg/En5YJYWj3Z`,
-    ),
+      `[ 💻 ] Be sure to join our Discord for support: https://discord.gg/En5YJYWj3Z`
+    )
   );
 });
 

@@ -1,6 +1,6 @@
 {
   "name": "lunaar.org",
-  "version": "7.3.0",
+  "version": "7.3.1",
   "description": "The Future of Unblocked Gaming!",
   "type": "module",
   "main": "index.js",
@@ -19,6 +19,7 @@
     "@mercuryworkshop/epoxy-transport": "^2.1.5",
     "@mercuryworkshop/libcurl-transport": "^1.3.7",
     "@mercuryworkshop/scramjet": "https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz",
+    "@mercuryworkshop/wisp-js": "^0.4.0",
     "@titaniumnetwork-dev/ultraviolet": "^3.2.10",
     "@tomphttp/bare-server-node": "^2.0.5",
     "chalk": "^5.4.1",
@@ -26,8 +27,7 @@
     "dotenv": "^17.2.1",
     "express": "^4.21.2",
     "http-proxy": "^1.18.1",
-    "node-fetch": "^3.3.2",
-    "wisp-server-node": "^1.1.7"
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.22",
