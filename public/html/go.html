@@ -51,22 +51,6 @@
         defaults: "2025-05-24",
       });
     </script>
-    <script>
-      (function (s) {
-        ((s.dataset.zone = "10008311"),
-          (s.src = "https://forfrogadiertor.com/tag.min.js"));
-      })(
-        [document.documentElement, document.body]
-          .filter(Boolean)
-          .pop()
-          .appendChild(document.createElement("script"))
-      );
-    </script>
-    <script
-      id="aclib"
-      type="text/javascript"
-      src="//acscdn.com/script/aclib.js"
-    ></script>
   </head>
   <body style="overflow: hidden">
     <div id="tab-bar">
@@ -115,8 +99,329 @@
     <div id="autocomplete"></div>
     <div class="loader"></div>
     <div id="frames"></div>
-
     <style>
+      /* Enhanced Proxy Page Styles */
+      body {
+        overflow: hidden;
+      }
+
+      #tab-bar {
+        display: flex;
+        align-items: center;
+        background: var(--bg-2-color);
+        padding: 8px 12px;
+        border-bottom: 1px solid var(--border-color);
+        position: relative;
+        z-index: 10;
+      }
+
+      #tabs {
+        display: flex;
+        gap: 8px;
+        margin-right: 12px;
+        overflow-x: auto;
+        scrollbar-width: thin;
+        scrollbar-color: var(--primary-color) transparent;
+        padding: 2px 0;
+      }
+
+      #tabs::-webkit-scrollbar {
+        height: 4px;
+      }
+
+      #tabs::-webkit-scrollbar-thumb {
+        background: var(--primary-color);
+        border-radius: 4px;
+      }
+
+      .tab {
+        background: var(--bg-color);
+        min-width: 150px;
+        max-width: 200px;
+        border: 1px solid var(--border-color);
+        padding: 8px 12px;
+        border-radius: var(--border-radius);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        transition: all 0.2s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .tab::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: var(--primary-color);
+        transition: width 0.3s ease;
+      }
+
+      .tab:hover::before {
+        width: 100%;
+      }
+
+      .tab:hover {
+        border-color: var(--primary-color);
+        transform: translateY(-2px);
+      }
+
+      .tab.active {
+        /* background: linear-gradient(
+          135deg,
+          var(--primary-color),
+          var(--accent-color)
+        ); */
+        background-color: var(--primary-color);
+        color: #fff;
+        border-color: var(--primary-color);
+      }
+
+      .tab span {
+        flex: 1;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      .tab i.close {
+        font-size: 11px;
+        cursor: pointer;
+        padding: 4px;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+        opacity: 0.7;
+      }
+
+      .tab i.close:hover {
+        opacity: 1;
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .tab.active i.close:hover {
+        background: rgba(255, 255, 255, 0.2);
+      }
+
+      #new-tab {
+        margin-left: 4px;
+        padding: 8px 12px;
+        font-size: 14px;
+        transition: all 0.2s ease;
+      }
+
+      #new-tab:hover {
+        transform: rotate(90deg) scale(1.1);
+      }
+
+      .navbar-proxy {
+        background: var(--bg-2-color);
+        padding: 10px 16px;
+        border-bottom: 1px solid var(--border-color);
+        position: relative;
+        z-index: 9;
+      }
+
+      .navbar-links {
+        gap: 6px;
+        align-items: center;
+      }
+
+      .navbar-link.pro {
+        padding: 10px 12px !important;
+        border-radius: var(--border-radius);
+        transition: all 0.2s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .navbar-link.pro::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border-radius: 50%;
+        background: rgba(146, 130, 251, 0.2);
+        transform: translate(-50%, -50%);
+        transition:
+          width 0.3s ease,
+          height 0.3s ease;
+      }
+
+      .navbar-link.pro:hover::before {
+        width: 100%;
+        height: 100%;
+      }
+
+      .navbar-link.pro:active {
+        transform: scale(0.95);
+      }
+
+      #proxy-address {
+        width: 100%;
+        font-size: 15px;
+        padding: 10px 16px;
+        border-radius: calc(var(--border-radius) * 1.5);
+        transition: all 0.2s ease;
+        font-weight: 400;
+      }
+
+      #proxy-address:focus {
+        box-shadow: 0 0 0 3px rgba(146, 130, 251, 0.2);
+      }
+
+      iframe {
+        width: 100%;
+        height: calc(100vh - 115px);
+        border: none;
+        display: none;
+        border-radius: 0;
+        background: var(--bg-color);
+      }
+
+      iframe.active {
+        display: block;
+        animation: fadeIn 0.3s ease;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .loader {
+        width: 50px;
+        aspect-ratio: 1;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 8px;
+        z-index: -1;
+        border-radius: 50%;
+        background: var(--primary-color);
+        --_m:
+          conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
+        -webkit-mask: var(--_m);
+        mask: var(--_m);
+        -webkit-mask-composite: source-out;
+        mask-composite: subtract;
+        animation: l3 1s infinite linear;
+      }
+
+      @keyframes l3 {
+        100% {
+          transform: translate(-50%, -50%) rotate(1turn);
+        }
+      }
+
+      #autocomplete {
+        position: absolute;
+        left: 130px;
+        margin: 0 auto;
+        margin-top: 10px;
+        background: var(--bg-color);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        width: 100%;
+        max-width: 500px;
+        max-height: 240px;
+        overflow-y: auto;
+        z-index: 999;
+        padding: 4px 0;
+        animation: slideDown 0.2s ease;
+        display: none;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+      }
+
+      @keyframes slideDown {
+        from {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      #autocomplete div {
+        padding: 10px 16px;
+        cursor: pointer;
+        display: flex;
+        color: var(--text-color);
+        transition: all 0.15s ease;
+        font-size: 14px;
+        position: relative;
+      }
+
+      #autocomplete div::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 2px;
+        height: 0;
+        background: var(--primary-color);
+        transition: height 0.2s ease;
+      }
+
+      #autocomplete div:hover::before,
+      #autocomplete div.active::before {
+        height: 100%;
+      }
+
+      #autocomplete div:hover,
+      #autocomplete div.active {
+        background: linear-gradient(
+          90deg,
+          rgba(146, 130, 251, 0.2),
+          transparent
+        );
+        color: #fff;
+        padding-left: 20px;
+      }
+
+      /* Responsive improvements */
+      @media (max-width: 768px) {
+        #tab-bar {
+          padding: 6px 8px;
+        }
+
+        .tab {
+          min-width: 120px;
+          padding: 6px 10px;
+        }
+
+        .navbar-proxy {
+          padding: 8px 12px;
+        }
+
+        #proxy-address {
+          font-size: 14px;
+          padding: 8px 12px;
+        }
+
+        .navbar-link.pro {
+          padding: 8px 10px !important;
+        }
+      }
+    </style>
+    <!-- <style>
       .loader {
         width: 50px;
         aspect-ratio: 1;
@@ -259,7 +564,7 @@
       .search-container {
         position: relative;
       }
-    </style>
+    </style> -->
 
     <script src="../js/nav.js"></script>
     <script src="../js/main.js"></script>

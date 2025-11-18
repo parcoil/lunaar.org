@@ -250,6 +250,14 @@ body {
 .btn:active {
   transform: scale(0.95);
 }
+.btn:focus {
+  outline: none;
+}
+
+.btn:not(.active) {
+  /* opacity: 0.6; */
+  background: var(--primary-color);
+}
 /* Input Styles */
 .input {
   /* width: 100%; */
@@ -460,28 +468,13 @@ main {
   justify-self: center;
   align-items: center;
 }
-/* not used yet*/
-/* .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-} */
-
-/* .close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-} */
-/* games page */
 
 #games-list,
 #apps-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   margin-top: 40px;
   max-width: 96%;
 }
@@ -878,7 +871,13 @@ input:checked + .slider:before {
 
 .left-ad iframe,
 .right-ad iframe,
-.ad iframe {
+.ad iframe,
+.ad div,
+.ad img,
+.left-ad div,
+.left-ad img,
+.right-ad div,
+.right-ad img {
   border-radius: 10px;
 }
 

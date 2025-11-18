@@ -1,10 +1,50 @@
 console.log(
   `%cLunaar%c v7 - games.js Loaded`,
   "font-size: 16px; background-color: #9282fb; border-top-left-radius: 5px; border-bottom-left-radius: 5px; padding: 4px; font-weight: bold;",
-  "font-size: 16px; background-color: #090810; font-weight: bold; padding: 4px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;",
+  "font-size: 16px; background-color: #090810; font-weight: bold; padding: 4px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;"
 );
 
 let allGames = [];
+
+function applyFilters() {
+  let filtered = allGames;
+  const showProxy = document
+    .getElementById("proxy-btn")
+    .classList.contains("active");
+  const showHtml5 = document
+    .getElementById("html5-btn")
+    .classList.contains("active");
+
+  // If neither is active, show nothing
+  if (!showProxy && !showHtml5) {
+    renderGames([]);
+    return;
+  }
+
+  // If both are active, show all games
+  if (showProxy && showHtml5) {
+    filtered = allGames;
+  } else {
+    // Filter based on which button is active
+    filtered = allGames.filter((game) => {
+      if (showProxy && game.proxy) return true;
+      if (showHtml5 && !game.proxy) return true;
+      return false;
+    });
+  }
+
+  // Apply search filter
+  const searchValue = document
+    .getElementById("search-input")
+    .value.toLowerCase();
+  if (searchValue) {
+    filtered = filtered.filter((game) =>
+      game.name.toLowerCase().includes(searchValue)
+    );
+  }
+
+  renderGames(filtered);
+}
 
 function renderGames(games) {
   const gamesList = document.getElementById("games-list");
@@ -86,7 +126,7 @@ function renderGames(games) {
         if (localStorage.getItem("proxy-backend") === "ultraviolet") {
           sessionStorage.setItem(
             "lpurl",
-            __uv$config.prefix + __uv$config.encodeUrl(game.url),
+            __uv$config.prefix + __uv$config.encodeUrl(game.url)
           );
           sessionStorage.setItem("rawurl", game.url);
           window.location.href = "/go";
@@ -108,22 +148,46 @@ function renderGames(games) {
   });
 }
 
-fetch("json/games.json")
-  .then((response) => response.json())
-  .then((data) => {
-    allGames = data;
+Promise.all([
+  fetch("json/games-local.json").then((response) => response.json()),
+  fetch("/cdn/all").then((response) => response.json()),
+])
+  .then(([localGamesData, remoteGamesData]) => {
+    allGames = [...localGamesData, ...remoteGamesData];
     const searchInput = document.getElementById("search-input");
     searchInput.placeholder = `Search for ${allGames.length} games`;
-    renderGames(allGames);
+    applyFilters();
+  })
+  .catch((error) => {
+    console.error("Error loading games:", error);
+    // Fallback to local games if remote fails
+    fetch("json/games-local.json")
+      .then((response) => response.json())
+      .then((data) => {
+        allGames = data;
+        const searchInput = document.getElementById("search-input");
+        searchInput.placeholder = `Search for ${allGames.length} games`;
+        applyFilters();
+      });
   });
 
 const searchInput = document.getElementById("search-input");
 if (searchInput) {
-  searchInput.addEventListener("input", (e) => {
-    const value = e.target.value.toLowerCase();
-    const filtered = allGames.filter((game) =>
-      game.name.toLowerCase().includes(value),
-    );
-    renderGames(filtered);
+  searchInput.addEventListener("input", applyFilters);
+}
+
+const proxyBtn = document.getElementById("proxy-btn");
+if (proxyBtn) {
+  proxyBtn.addEventListener("click", () => {
+    proxyBtn.classList.toggle("active");
+    applyFilters();
+  });
+}
+
+const html5Btn = document.getElementById("html5-btn");
+if (html5Btn) {
+  html5Btn.addEventListener("click", () => {
+    html5Btn.classList.toggle("active");
+    applyFilters();
   });
 }
