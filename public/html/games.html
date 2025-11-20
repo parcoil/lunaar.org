@@ -128,6 +128,20 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        if (!localStorage.getItem("gamesModalShown")) {
+          Swal.fire({
+            title: "Notice",
+            text: "Some games may be buggy. Please report any issues!",
+            icon: "info",
+            confirmButtonText: "Got it!",
+            confirmButtonColor: "#9282fb",
+          });
+          localStorage.setItem("gamesModalShown", "true");
+        }
+      });
+    </script>
     <div class="panic-btn-div" id="panicDiv">
       <button id="panicBtn">Panic</button>
     </div>

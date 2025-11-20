@@ -123,8 +123,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const prxBackend = localStorage.getItem("proxy-backend");
 
-  if (!prxBackend || prxBackend === "ultraviolet") {
-    localStorage.setItem("proxy-backend", "scramjet");
+  if (!prxBackend) {
+    localStorage.setItem("proxy-backend", "ultraviolet");
   }
 
   fetch("/api/version")
@@ -259,13 +259,11 @@ document.addEventListener("DOMContentLoaded", () => {
   // Announcements modal
   const currentAnnouncement = `
 <div>
-<h2>Whats New:</h2>
+<h2>(BIG UPDATE) Whats New:</h2>
   <ul style="list-style-position: inside; text-align: center;">
-    <li>Updated Home page</li>
-    <li>Added Game source filtering</li>
-    <li>Updated Go page styles.</li>
-    <li>Scramjet is now default</li>
-    <li>Added this modal</li>
+    <li>ADDED 613 GAMES!</li>
+    <li>Added More page</li>
+    <li>Reverted Scramjet as default some users are having issues</li>
   </ul>
   <p>Join the Discord: https://dsc.gg/parcoil</p>
 </div>`;

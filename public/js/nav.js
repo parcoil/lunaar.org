@@ -38,9 +38,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="navbar-links">
         <a href="/" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-home"></i></span> Home</a>
         <a href="/science" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-gamepad"></i></span> Games</a>
-            <a href="/ai" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-robot"></i></span> AI</a>
+        <a href="/ai" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-robot"></i></span> AI</a>
         <a href="/math" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-grid-2"></i></span> Apps</a>
         <a href="/settings" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-cog"></i></span> Settings</a>
+        <a href="/more" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-plus"></i></span> More</a>
     </div>
 </nav>
 `;

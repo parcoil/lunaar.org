@@ -1,1637 +1,4293 @@
 [
   {
-    "name": "Pump Kill 64",
-    "image": "pumpkill.webp",
-    "url": "pumpkill",
-    "new": true,
-    "top": false
-  },
-  {
-    "name": "Plants vs Zombies",
-    "image": "cover.png",
-    "url": "pvz",
-    "new": true,
-    "top": false
-  },
-  {
-    "name": "1v1space",
-    "image": "splash.png",
-    "url": "1v1space",
-    "new": false
-  },
-  {
-    "name": "10 Minutes Till Dawn",
-    "image": "splash.png",
-    "url": "10-minutes-till-dawn",
-    "new": false
-  },
-  {
-    "name": "100ng",
-    "image": "100ng.jpg",
-    "url": "100ng",
-    "new": false
-  },
-  {
-    "name": "2048",
-    "image": "2048.png",
-    "url": "2048",
-    "new": false
-  },
-  {
-    "name": "2048 Multitask",
-    "image": "splash.png",
-    "url": "2048-multitask",
-    "new": false
-  },
-  {
-    "name": "9007199254740992",
-    "image": "logo-4.png",
-    "url": "9007199254740992",
-    "new": false
-  },
-  {
-    "name": "DogeMiner",
-    "image": "favicon.ico",
-    "url": "DogeMiner",
-    "new": false
-  },
-  {
-    "name": "DogeMiner2",
-    "image": "img/dogeminer2.webp",
-    "url": "dogeminer2/play",
-    "new": true
-  },
-  {
-    "name": "Offline Paradise",
-    "image": "assets/icon.jpeg",
-    "url": "OfflineParadise",
-    "new": false
-  },
-  {
-    "name": "A Dance of Fire and Ice",
-    "image": "splash.png",
-    "url": "a-dance-of-fire-and-ice",
-    "new": false
-  },
-  {
-    "name": "Achievement Unlocked",
-    "image": "achievementunlocked.png",
-    "url": "achievementunlocked",
-    "new": false
-  },
-  {
-    "name": "A Dark Room",
-    "image": "splash.png",
-    "url": "adarkroom",
-    "new": false
-  },
-  {
-    "name": "Adrenaline Challenge",
-    "image": "adrenalinechallenge.jpg",
-    "url": "adrenalinechallenge",
-    "new": false
-  },
-  {
-    "name": "Alien Hominid",
-    "image": "alienhominid.jpg",
-    "url": "alienhominid",
-    "new": false
-  },
-  {
-    "name": "Angry Sharks",
-    "image": "assets/img/splash.png",
-    "url": "angry-sharks",
-    "new": false
-  },
-  {
-    "name": "Aquapark Slides",
-    "image": "splash.png",
-    "url": "aquapark-slides",
-    "new": false
-  },
-  {
-    "name": "Astray",
-    "image": "splash.png",
-    "url": "astray",
-    "new": false
-  },
-  {
-    "name": "Avalanche",
-    "image": "avalanche.png",
-    "url": "avalanche",
-    "new": false
-  },
-  {
-    "name": "Battle for Gondor",
-    "image": "battleforgondor.JPG",
-    "url": "battleforgondor",
-    "new": false
-  },
-  {
-    "name": "Big Red Button",
-    "image": "bigredbutton.png",
-    "url": "bigredbutton",
-    "new": false
-  },
-  {
-    "name": "Black Hole Square",
-    "image": "icon.png",
-    "url": "blacholesquare",
-    "new": false
-  },
-  {
-    "name": "Black Knight",
-    "image": "blackknight.png",
-    "url": "blackknight",
-    "new": false
-  },
-  {
-    "name": "Bloons TD",
-    "image": "bloonstd.jpg",
-    "url": "bloonstd",
-    "new": false
-  },
-  {
-    "name": "Bloons TD 2",
-    "image": "bloonstd2.png",
-    "url": "bloonstd2",
-    "new": false
-  },
-  {
-    "name": "Bloxors",
-    "image": "title.png",
-    "url": "bloxors",
-    "new": false
-  },
-  {
-    "name": "BNTTS",
-    "image": "icons/icon-256.png",
-    "url": "bntts",
-    "new": false
-  },
-  {
-    "name": "Bob the Robber 2",
-    "image": "splash.jpeg",
-    "url": "bobtherobber2",
-    "new": false
-  },
-  {
-    "name": "Boxhead 2 Play",
-    "image": "boxhead2play.jpg",
-    "url": "boxhead2play",
-    "new": false
-  },
-  {
-    "name": "Boxing Random",
-    "image": "512x512.jpg",
-    "url": "boxing-random",
-    "new": false
-  },
-  {
-    "name": "Breaking the Bank",
-    "image": "breakingthebank.png",
-    "url": "breakingthebank",
-    "new": false
-  },
-  {
-    "name": "BTTS",
-    "image": "images.png",
-    "url": "btts",
-    "new": false
-  },
-  {
-    "name": "Burger and Frights",
-    "image": "splash.png",
-    "url": "burger-and-frights",
-    "new": false
-  },
-  {
-    "name": "Cannon Basketball 4",
-    "image": "img/splash.png",
-    "url": "cannon-basketball-4",
-    "new": false
-  },
-  {
-    "name": "Canyon Defense",
-    "image": "canyondefense.png",
-    "url": "canyondefense",
-    "new": false
-  },
-  {
-    "name": "Cars Simulator",
-    "image": "splash.png",
-    "url": "cars-simulator",
-    "new": false
-  },
-  {
-    "name": "Cell Machine",
-    "image": "img/te9nDu.png",
-    "url": "cell-machine",
-    "new": false
-  },
-  {
-    "name": "Champion Island",
-    "image": "splash.png",
-    "url": "champion-island",
-    "new": false
-  },
-  {
-    "name": "Champion Archer",
-    "image": "championarcher.png",
-    "url": "championarcher",
-    "new": false
-  },
-  {
-    "name": "Chill Radio",
-    "image": "img/chill-icon.png",
-    "url": "chill-radio",
-    "new": false
-  },
-  {
-    "name": "Chrome Dino",
-    "image": "images/default_100_percent/offline/100-error-offline.png",
-    "url": "chrome-dino",
-    "new": false
-  },
-  {
-    "name": "Circlo",
-    "image": "img/download.png",
-    "url": "circlo",
-    "new": false
-  },
-  {
-    "name": "Cluster Rush",
-    "image": "splash.png",
-    "url": "cluster-rush",
-    "new": false
-  },
-  {
-    "name": "CN Ping Pong",
-    "image": "tabletennisultimate.png",
-    "url": "cnpingpong",
-    "new": false
-  },
-  {
-    "name": "Connect 3",
-    "image": "connect3.png",
-    "url": "connect3",
-    "new": false
-  },
-  {
-    "name": "Cookie Clicker",
-    "image": "cookie1.jpeg",
-    "url": "cookie-clicker",
-    "new": false
-  },
-  {
-    "name": "Core Ball",
-    "image": "pr_source.png",
-    "url": "core-ball",
-    "new": false
-  },
-  {
-    "name": "Craftmine",
-    "image": "images/animal-sheet0.png",
-    "url": "craftmine",
-    "new": false
-  },
-  {
-    "name": "Creative Kill Chamber",
-    "image": "creativekillchamber.jpg",
-    "url": "creativekillchamber",
-    "new": false
-  },
-  {
-    "name": "Crossy Road",
-    "image": "crossyroad.png",
-    "url": "crossyroad",
-    "new": false
-  },
-  {
-    "name": "CS:GO Clicker",
-    "image": "images/case1.png",
-    "url": "csgo-clicker",
-    "new": false
-  },
-  {
-    "name": "CTR",
-    "image": "logo.png",
-    "url": "ctr",
-    "new": false
-  },
-  {
-    "name": "CTR Holiday",
-    "image": "favicon.ico",
-    "url": "ctr-holiday",
-    "new": false
-  },
-  {
-    "name": "CTR TR",
-    "image": "logo.png",
-    "url": "ctr-tr",
-    "new": false
-  },
-  {
-    "name": "Cubefield",
-    "image": "assets/unnamed.png",
-    "url": "cubefield",
-    "new": false
-  },
-  {
-    "name": "Cupcake 2048",
-    "image": "favicon.ico",
-    "url": "cupcake2048",
-    "new": false
-  },
-  {
-    "name": "Dante",
-    "image": "splash.png",
-    "url": "dante",
-    "new": false
-  },
-  {
-    "name": "Deal or No Deal",
-    "image": "index.jpg",
-    "url": "deal-or-no-deal",
-    "new": false
-  },
-  {
-    "name": "Death Run 3D",
-    "image": "img/death.png",
-    "url": "death-run-3d",
-    "new": false
-  },
-  {
-    "name": "Defend the Tank",
-    "image": "images/splash.jpg",
-    "url": "defend-the-tank",
-    "new": false
-  },
-  {
-    "name": "Doctor Acorn 2",
-    "image": "splash.jpg",
-    "url": "doctor-acorn2",
-    "new": false
-  },
-  {
-    "name": "Doge 2048",
-    "image": "doge1.jpeg",
-    "url": "doge2048",
-    "new": false
-  },
-  {
-    "name": "Doodle Jump",
-    "image": "doodle.png",
-    "url": "doodle-jump",
-    "new": false
-  },
-  {
-    "name": "Double Wires",
-    "image": "doublewires.png",
-    "url": "doublewires",
-    "new": false
-  },
-  {
-    "name": "Dragon vs. Bricks",
-    "image": "splash.png",
-    "url": "dragon-vs-bricks",
-    "new": false
-  },
-  {
-    "name": "Draw the Hill",
-    "image": "icons/icon-512.png",
-    "url": "draw-the-hill",
-    "new": false
-  },
-  {
-    "name": "Drift Boss",
-    "image": "logo.png",
-    "url": "drift-boss",
-    "new": false
-  },
-  {
-    "name": "Drift Hunters",
-    "image": "drift-hunters.png",
-    "url": "drift-hunters",
-    "new": false
-  },
-  {
-    "name": "Drive Mad",
-    "image": "logo.jpg",
-    "url": "drive-mad",
-    "new": false
-  },
-  {
-    "name": "Duck Life 1",
-    "image": "ducklife.png",
-    "url": "ducklife1",
-    "new": false
-  },
-  {
-    "name": "Duck Life 2",
-    "image": "ducklife2.png",
-    "url": "ducklife2",
-    "new": false
-  },
-  {
-    "name": "Duck Life 3",
-    "image": "duck.png",
-    "url": "ducklife3",
-    "new": false
-  },
-  {
-    "name": "Duck Life 4",
-    "image": "splash.jpg",
-    "url": "ducklife4",
-    "new": false
-  },
-  {
-    "name": "Edge Surf",
-    "image": "splash.png",
-    "url": "edge-surf",
-    "new": false
-  },
-  {
-    "name": "Edge Not Found",
-    "image": "edge.png",
-    "url": "edgenotfound",
-    "new": false
-  },
-  {
-    "name": "Eel Slap",
-    "image": "eel-slap.png",
-    "url": "eel-slap",
-    "new": false
-  },
-  {
-    "name": "Elastic Man",
-    "image": "elasticman.jpg",
-    "url": "elasticman",
-    "new": false
-  },
-  {
-    "name": "Endless War 3",
-    "image": "endlesswar3.png",
-    "url": "endlesswar3",
-    "new": false
-  },
-  {
-    "name": "Escaping the Prison",
-    "image": "escapingtheprison.jpg",
-    "url": "escapingtheprison",
-    "new": false
-  },
-  {
-    "name": "Evil Glitch",
-    "image": "evil.png",
-    "url": "evil-glitch",
-    "new": false
-  },
-  {
-    "name": "Evolution",
-    "image": "splash.png",
-    "url": "evolution",
-    "new": false
-  },
-  {
-    "name": "Exo",
-    "image": "img/small.jpg",
-    "url": "exo",
-    "new": false
-  },
-  {
-    "name": "Factory Balls",
-    "image": "images/splash.png",
-    "url": "factoryballs",
-    "new": false
-  },
-  {
-    "name": "Fairsquares",
-    "image": "index.icon.png",
-    "url": "fairsquares",
-    "new": false
-  },
-  {
-    "name": "Fake Virus",
-    "image": "icon.png",
-    "url": "fake-virus",
-    "new": false
-  },
-  {
-    "name": "Fancy Pants Adventures",
-    "image": "fancypantsadventure.png",
-    "url": "fancypantsadventures",
-    "new": false
-  },
-  {
-    "name": "Fireboy and Watergirl: Forest Temple",
-    "image": "logo.jpeg",
-    "url": "fireboywatergirlforesttemple",
-    "new": false
-  },
-  {
-    "name": "Flappy 2048",
-    "image": "favicon.ico",
-    "url": "flappy-2048",
-    "new": false
-  },
-  {
-    "name": "Flappy Bird",
-    "image": "flappybird.jpg",
-    "url": "flappy-bird",
-    "new": false
-  },
-  {
-    "name": "Flash Tetris",
-    "image": "flashtetris.png",
-    "url": "flashtetris",
-    "new": false
-  },
-  {
-    "name": "Flippy Fish",
-    "image": "2022_10_28_0jt_Kleki.png",
-    "url": "flippy-fish",
-    "new": false
-  },
-  {
-    "name": "Five Nights at Wario's (FNAW)",
-    "image": "splash.png",
-    "url": "fnaw",
-    "new": false
-  },
-  {
-    "name": "Friday Night Funkin'",
-    "image": "fnf-icon.jpg",
-    "url": "fridaynightfunkin",
-    "new": false
-  },
-  {
-    "name": "Froggy's Battle",
-    "image": "splash.png",
-    "url": "froggys-battle",
-    "new": false
-  },
-  {
-    "name": "Fruit Ninja",
-    "image": "FruitNinjaTeaser.jpg",
-    "url": "fruitninja",
-    "new": false
-  },
-  {
-    "name": "Frying Nemo",
-    "image": "splash.png",
-    "url": "frying-nemo",
-    "new": false
-  },
-  {
-    "name": "Game Inside",
-    "image": "img/display.png",
-    "url": "game-inside",
-    "new": false
-  },
-  {
-    "name": "Generic Fishing Game",
-    "image": "splash.png",
-    "url": "generic-fishing-game",
-    "new": false
-  },
-  {
-    "name": "Geo Dash",
-    "image": "geoscratchicon.png",
-    "url": "geodash",
-    "new": false
-  },
-  {
-    "name": "George and the Printer",
-    "image": "img/SnDTEn.png",
-    "url": "georgeandtheprinter",
-    "new": false
-  },
-  {
-    "name": "Getaway Shootout",
-    "image": "img/images.jpg",
-    "url": "getaway-shootout",
-    "new": false
-  },
-  {
-    "name": "Gimme the Airpod",
-    "image": "img/logo.png",
-    "url": "gimme-the-airpod",
-    "new": false
-  },
-  {
-    "name": "Glass City",
-    "image": "image.png",
-    "url": "glass-city",
-    "new": false
-  },
-  {
-    "name": "Go Ball",
-    "image": "game.jpg",
-    "url": "go-ball",
-    "new": false
-  },
-  {
-    "name": "Goodnight",
-    "image": "goodnight.jpg",
-    "url": "goodnight",
-    "new": false
-  },
-  {
-    "name": "Google Feud",
-    "image": "splash.png",
-    "url": "google-feud",
-    "new": false
-  },
-  {
-    "name": "Google Snake",
-    "image": "img/snake.png",
-    "url": "google-snake",
-    "new": false
-  },
-  {
-    "name": "Gravity Soccer",
-    "image": "splash.png",
-    "url": "gravity-soccer",
-    "new": false
-  },
-  {
-    "name": "Greybox",
-    "image": "ico.png",
-    "url": "greybox",
-    "new": false
-  },
-  {
-    "name": "Grindcraft",
-    "image": "img/splash.png",
-    "url": "grindcraft",
-    "new": false
-  },
-  {
-    "name": "Hacker Type",
-    "image": "logo192.png",
-    "url": "hackertype",
-    "new": false
-  },
-  {
-    "name": "Handshakes",
-    "image": "splaher.png",
-    "url": "handshakes",
-    "new": false
-  },
-  {
-    "name": "Happy Hop",
-    "image": "splash.png",
-    "url": "happy-hop",
-    "new": false
-  },
-  {
-    "name": "HBA",
-    "image": "hoverbotarena.JPG",
-    "url": "hba",
-    "new": false
-  },
-  {
-    "name": "Helicopter",
-    "image": "helicopter.png",
-    "url": "helicopter",
-    "new": false
-  },
-  {
-    "name": "Hex Empire",
-    "image": "hexempire.jpg",
-    "url": "hexempire",
+    "name": "Bowmasters",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/0.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/0.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Hextris",
-    "image": "images/hextris-logo.png",
-    "url": "hextris",
+    "name": "OvO",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/1.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/1.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Hungry Lamu",
-    "image": "splash.png",
-    "url": "hungry-lamu",
+    "name": "OvO 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/2.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/2.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Idle Breakout",
-    "image": "img/thumbnail.png",
-    "url": "idle-breakout",
+    "name": "OvO 3 Dimensions",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/3.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/3.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Idle Shark",
-    "image": "img/sharkgame.png",
-    "url": "idle-shark",
+    "name": "Gladihoppers",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/4.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/4.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Impossible Quiz",
-    "image": "impossiblequiz.png",
-    "url": "impossiblequiz",
+    "name": "Ice Dodo",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/5.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/5.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Interactive Buddy",
-    "image": "interactivebuddy.jpg",
-    "url": "interactivebuddy",
+    "name": "Block Blast",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/6.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/6.html",
+    "proxy": false,
     "new": false
   },
   {
     "name": "Jetpack Joyride",
-    "image": "splash.jpg",
-    "url": "jetpack-joyride",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/7.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/7.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Just Fall",
-    "image": "unnamed.png",
-    "url": "just-fall",
+    "name": "Friday Night Funkin",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/8.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/8-a.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Just One Boss",
-    "image": "pv1Gr5.png",
-    "url": "just-one-boss",
-    "new": false
-  },
-  {
-    "name": "Kitchen Gun Game",
-    "image": "splash.png",
-    "url": "kitchen-gun-game",
-    "new": false
-  },
-  {
-    "name": "Kitten Cannon",
-    "image": "kittencannon.png",
-    "url": "kittencannon",
-    "new": false
-  },
-  {
-    "name": "Knife Master",
-    "image": "512x512.jpg",
-    "url": "knife-master",
-    "new": false
-  },
-  {
-    "name": "Krunker",
-    "image": "img/krunker-io.jpg",
-    "url": "krunker",
-    "new": false
-  },
-  {
-    "name": "Learn to Fly",
-    "image": "learntofly.png",
-    "url": "learntofly",
-    "new": false
-  },
-  {
-    "name": "Learn to Fly 2",
-    "image": "learn-to-fly-2.jpg",
-    "url": "learntofly2",
-    "new": false
-  },
-  {
-    "name": "Madalin Stunt Cars 2",
-    "image": "img/logo.jpg",
-    "url": "madalin-stunt-cars-2",
-    "new": false
-  },
-  {
-    "name": "Madalin Stunt Cars 3",
-    "image": "img/index.jpg",
-    "url": "madalin-stunt-cars-3",
-    "new": false
-  },
-  {
-    "name": "Mario",
-    "image": "Theme/Mario.gif",
-    "url": "mario",
-    "new": false
-  },
-  {
-    "name": "Marvin Spectrum",
-    "image": "marvinspectrum.png",
-    "url": "marvinspectrum",
-    "new": false
-  },
-  {
-    "name": "Matrix Rampage",
-    "image": "matrixrampage.jpg",
-    "url": "matrixrampage",
-    "new": false
-  },
-  {
-    "name": "Meme 2048",
-    "image": "img/hot.gif",
-    "url": "meme2048",
-    "new": false
-  },
-  {
-    "name": "Merge Round Racers",
-    "image": "splash.png",
-    "url": "merge-round-racers",
-    "new": false
-  },
-  {
-    "name": "Mine Blocks",
-    "image": "splash.png",
-    "url": "mineblocks",
-    "new": false
-  },
-  {
-    "name": "Minesweeper",
-    "image": "img/minesweeper.png",
-    "url": "minesweeper",
-    "new": false
-  },
-  {
-    "name": "Mini Putt",
-    "image": "miniputt.png",
-    "url": "miniputt",
-    "new": false
-  },
-  {
-    "name": "Missiles",
-    "image": "miss.png",
-    "url": "missiles",
-    "new": false
-  },
-  {
-    "name": "Moto X3M",
-    "image": "splash.jpg",
-    "url": "motox3m",
-    "new": false
-  },
-  {
-    "name": "Moto X3M Pool",
-    "image": "splash.jpg",
-    "url": "motox3m-pool",
-    "new": false
-  },
-  {
-    "name": "Moto X3M Spooky",
-    "image": "splash.jpeg",
-    "url": "motox3m-spooky",
-    "new": false
-  },
-  {
-    "name": "Moto X3M Winter",
-    "image": "download.jpeg",
-    "url": "motox3m-winter",
-    "new": false
-  },
-  {
-    "name": "Moto X3M 2",
-    "image": "Moto-X3M-2.webp",
-    "url": "motox3m2",
-    "new": false
-  },
-  {
-    "name": "My Rusty Submarine",
-    "image": "splash.png",
-    "url": "my-rusty-submarine",
-    "new": false
-  },
-  {
-    "name": "N-Gon",
-    "image": "img/n-gonbot.png",
-    "url": "n-gon",
-    "new": false
-  },
-  {
-    "name": "Ninja",
-    "image": "logo1.png",
-    "url": "ninja",
-    "new": false
-  },
-  {
-    "name": "Ninja vs Evil Corp",
-    "image": "splash.png",
-    "url": "ninjavsevilcorp",
-    "new": false
-  },
-  {
-    "name": "Noob Steve Parkour",
-    "image": "512x512.jpg",
-    "url": "noob-steve-parkour",
-    "new": false
-  },
-  {
-    "name": "NS Shaft",
-    "image": "favicon.png",
-    "url": "ns-shaft",
-    "new": false
-  },
-  {
-    "name": "NS Resurgence",
-    "image": "neon.png",
-    "url": "nsresurgence",
-    "new": false
-  },
-  {
-    "name": "Om Bounce",
-    "image": "assets/icon.jpeg",
-    "url": "om-bounce",
-    "new": false
-  },
-  {
-    "name": "OVO",
-    "image": "ovo3.png",
-    "url": "ovo",
-    "new": false
-  },
-  {
-    "name": "Pandemic 2",
-    "image": "pandemic2.png",
-    "url": "pandemic2",
-    "new": false
-  },
-  {
-    "name": "Papa's Burgeria",
-    "image": "splash.jpg",
-    "url": "papasburgeria",
-    "new": false
-  },
-  {
-    "name": "Papa's Pizzeria",
-    "image": "papaspizzaria.jpg",
-    "url": "papaspizzaria",
-    "new": false
-  },
-  {
-    "name": "Paper.io 2",
-    "image": "images/icon512.png",
-    "url": "paperio2",
-    "new": false
-  },
-  {
-    "name": "Papery Planes",
-    "image": "splash.jpg",
-    "url": "papery-planes",
-    "new": false
-  },
-  {
-    "name": "Particle Clicker",
-    "image": "assets/pc32@2x.png",
-    "url": "particle-clicker",
-    "new": false
-  },
-  {
-    "name": "Pixel Gun Survival",
-    "image": "512x512.png",
-    "url": "pixel-gun-survival",
-    "new": false
-  },
-  {
-    "name": "Polybranch",
-    "image": "img/pic1.png",
-    "url": "polybranch",
-    "new": false
-  },
-  {
-    "name": "Popcat Classic",
-    "image": "android-chrome-512x512.png",
-    "url": "popcat-classic",
-    "new": false
-  },
-  {
-    "name": "Portal Flash",
-    "image": "portaltheflashversion.jpg",
-    "url": "portalflash",
-    "new": false
-  },
-  {
-    "name": "Precision Client",
-    "image": "logo.png",
-    "url": "precision-client",
-    "new": false
-  },
-  {
-    "name": "Protektor",
-    "image": "splash.jpg",
-    "url": "protektor",
-    "new": false
-  },
-  {
-    "name": "Push the Square",
-    "image": "img/splash.png",
-    "url": "push-the-square",
-    "new": false
-  },
-  {
-    "name": "Push Your Luck",
-    "image": "assets/img/push.png",
-    "url": "push-your-luck",
-    "new": false
-  },
-  {
-    "name": "Rabbit Samurai",
-    "image": "splash.png",
-    "url": "rabbit-samurai",
-    "new": false
-  },
-  {
-    "name": "Rabbit Samurai 2",
-    "image": "splash.png",
-    "url": "rabbit-samurai2",
-    "new": false
-  },
-  {
-    "name": "Resent Client",
-    "image": "splash.jpg",
-    "url": "resent-client",
-    "new": false
-  },
-  {
-    "name": "Riddle School",
-    "image": "riddleschool.png",
-    "url": "riddleschool",
-    "new": false
-  },
-  {
-    "name": "Riddle School 2",
-    "image": "riddleschool2.png",
-    "url": "riddleschool2",
-    "new": false
-  },
-  {
-    "name": "Riddle School 3",
-    "image": "riddleschool3.png",
-    "url": "riddleschool3",
-    "new": false
-  },
-  {
-    "name": "Riddle School 4",
-    "image": "riddleschool4.png",
-    "url": "riddleschool4",
-    "new": false
-  },
-  {
-    "name": "Riddle School 5",
-    "image": "riddleschool5.png",
-    "url": "riddleschool5",
-    "new": false
-  },
-  {
-    "name": "Riddle Transfer",
-    "image": "riddletransfer.png",
-    "url": "riddletransfer",
-    "new": false
-  },
-  {
-    "name": "Riddle Transfer 2",
-    "image": "riddletransfer2.png",
-    "url": "riddletransfer2",
-    "new": false
-  },
-  {
-    "name": "Rolling Forests",
-    "image": "icon.png",
-    "url": "rolling-forests",
-    "new": false
-  },
-  {
-    "name": "Rolly Vortex",
-    "image": "icon-256.png",
-    "url": "rolly-vortex",
-    "new": false
-  },
-  {
-    "name": "Rooftop Snipers",
-    "image": "img/thumb.png",
-    "url": "rooftop-snipers",
-    "new": false
-  },
-  {
-    "name": "Ruffle",
-    "image": "splash.png",
-    "url": "ruffle",
-    "new": false
-  },
-  {
-    "name": "Slap The Monkey",
-    "image": "slap-the-monkey.jpg",
-    "url": "slap-the-monkey",
-    "new": false
-  },
-  {
-    "name": "Sand Game",
-    "image": "sand-game.PNG",
-    "url": "sand-game",
-    "new": false
-  },
-  {
-    "name": "Sandboxels",
-    "image": "sandboxels.jpg",
-    "url": "sandboxels",
-    "new": false
-  },
-  {
-    "name": "Santy is Home",
-    "image": "splash.png",
-    "url": "santy-is-home",
-    "new": false
-  },
-  {
-    "name": "Scrap Metal",
-    "image": "img/splash.png",
-    "url": "scrapmetal",
-    "new": false
-  },
-  {
-    "name": "Shell Shockers",
-    "image": "img/favicon.png",
-    "url": "shellshockers",
-    "new": false
-  },
-  {
-    "name": "Shot in the Dark",
-    "image": "shot.png",
-    "url": "shotinthedark",
-    "new": false
-  },
-  {
-    "name": "Shuttle Deck",
-    "image": "splash.png",
-    "url": "shuttledeck",
-    "new": false
-  },
-  {
-    "name": "Sky Car Stunt",
-    "image": "512x512.jpg",
-    "url": "sky-car-stunt",
-    "new": false
-  },
-  {
-    "name": "Sleeping Beauty",
-    "image": "splash.png",
-    "url": " sleepingbeauty",
-    "new": false
-  },
-  {
-    "name": "Slime Rush TD",
-    "image": "splash.png",
-    "url": "slime-rush-td",
-    "new": false
-  },
-  {
-    "name": "Slope",
-    "image": "slope4.jpeg",
-    "url": "slope",
-    "new": false,
-    "top": true
-  },
-  {
-    "name": "Slope 2",
-    "image": "slope-2-logo.png",
-    "url": "slope-2",
-    "new": false
-  },
-  {
-    "name": "Slope Ball",
-    "image": "icon.jpg",
-    "url": "slope-ball",
-    "new": false
-  },
-  {
-    "name": "Smash Karts",
-    "image": "images/icon-512.png",
-    "url": "smashkarts",
-    "new": false
-  },
-  {
-    "name": "Smoking Barrels",
-    "image": "smokingbarrels.jpg",
-    "url": "smokingbarrels",
-    "new": false
-  },
-  {
-    "name": "Snow Battle",
-    "image": "img/logo.png",
-    "url": "snowbattle",
-    "new": false
-  },
-  {
-    "name": "Soccer Random",
-    "image": "splash.png",
-    "url": "soccer-random",
-    "new": false
-  },
-  {
-    "name": "Soccer Skills",
-    "image": "splash.png",
-    "url": "soccer-skills",
-    "new": false
-  },
-  {
-    "name": "Soldier Legend",
-    "image": "images/logo.jpg",
-    "url": "soldier-legend",
-    "new": false
-  },
-  {
-    "name": "Solitaire",
-    "image": "img/hover.jpg",
-    "url": "solitaire",
-    "new": false
-  },
-  {
-    "name": "Sort the Court",
-    "image": "img/splash.png",
-    "url": "sort-the-court",
-    "new": false
-  },
-  {
-    "name": "Soundboard",
-    "image": "img/mlg-favicon.png",
-    "url": "soundboard",
-    "new": false
-  },
-  {
-    "name": "Space Company",
-    "image": "whiteLogo.png",
-    "url": "space-company",
-    "new": false
-  },
-  {
-    "name": "Space Garden",
-    "image": "spl.png",
-    "url": "spacegarden",
-    "new": false
-  },
-  {
-    "name": "Spinning Rat",
-    "image": "favicon-32x32.png",
-    "url": "spinningrat",
-    "new": false
-  },
-  {
-    "name": "Stack",
-    "image": "stack.png",
-    "url": "stack",
-    "new": false
-  },
-  {
-    "name": "Stack Bump 3D",
-    "image": "thumbnail.jpg",
-    "url": "stack-bump-3d",
-    "new": false
-  },
-  {
-    "name": "Starve",
-    "image": "img/favicon.png",
-    "url": "starve",
-    "new": false
-  },
-  {
-    "name": "Station 141",
-    "image": "75wxYs.png",
-    "url": "station-141",
-    "new": false
-  },
-  {
-    "name": "Stealing the Diamond",
-    "image": "stealingthediamond.jpg",
-    "url": "stealingthediamond",
-    "new": false
-  },
-  {
-    "name": "Stick Archers",
-    "image": "splash.jpg",
-    "url": "stick-archers",
-    "new": false
-  },
-  {
-    "name": "Stick Duel Battle",
-    "image": "512x512.jpg",
-    "url": "stick-duel-battle",
-    "new": false
-  },
-  {
-    "name": "Stick Merge",
-    "image": "splash.png",
-    "url": "stick-merge",
-    "new": false
-  },
-  {
-    "name": "Stickman Boost",
-    "image": "icon-256.png",
-    "url": "stickman-boost",
-    "new": false
-  },
-  {
-    "name": "Stickman Golf",
-    "image": "splash.png",
-    "url": "stickman-golf",
-    "new": false
-  },
-  {
-    "name": "Stickman Hook",
-    "image": "unnamed.jpg",
-    "url": "stickman-hook",
-    "new": false
-  },
-  {
-    "name": "Stick War",
-    "image": "stickwar.jpg",
-    "url": "stickwar",
-    "new": false
-  },
-  {
-    "name": "Storm the House 2",
-    "image": "stormthehouse2.jpg",
-    "url": "stormthehouse2",
-    "new": false
-  },
-  {
-    "name": "Subway Surfers",
-    "image": "img/splash.jpg",
-    "url": "subway-surfers",
-    "new": false
-  },
-  {
-    "name": "Subway Surfers NY",
-    "image": "NewYorkIcon.png",
-    "url": "subway-surfers-ny",
-    "new": false
-  },
-  {
-    "name": "Superhot",
-    "image": "hot.jpg",
-    "url": "superhot",
-    "new": false
-  },
-  {
-    "name": "Super Mario Construct",
-    "image": "icons/icon-256.png",
-    "url": "supermarioconstruct",
-    "new": false
-  },
-  {
-    "name": "Surviv",
-    "image": "img/favicon.png",
-    "url": "surviv",
-    "new": false
-  },
-  {
-    "name": "Sushi Unroll",
-    "image": "favicon.png",
-    "url": "sushi-unroll",
-    "new": false
-  },
-  {
-    "name": "Swerve",
-    "image": "img/favicon.jpg",
-    "url": "swerve",
-    "new": false
-  },
-  {
-    "name": "Synesthesia",
-    "image": "index.splash.png",
-    "url": "synesthesia",
-    "new": false
-  },
-  {
-    "name": "Tactical Weapon Pack 2",
-    "image": "splash.jpg",
-    "url": "tactical-weapon-pack-2",
-    "new": false
-  },
-  {
-    "name": "Tactical Assassin 2",
-    "image": "tacticalassassin2.png",
-    "url": "tacticalassasin2",
-    "new": false
-  },
-  {
-    "name": "Tank Trouble 2",
-    "image": "tank.jpeg",
-    "url": "tank-trouble-2",
-    "new": false
-  },
-  {
-    "name": "Tanuki Sunset",
-    "image": "img/logo.png",
-    "url": "tanuki-sunset",
+    "name": "Sprunki",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/9.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/9.html",
+    "proxy": false,
     "new": false
   },
   {
     "name": "Temple Run 2",
-    "image": "img/temple-run-2-256.png",
-    "url": "temple-run-2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/10.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/10.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "The Final Earth",
-    "image": "images.png",
-    "url": "the-final-earth",
+    "name": "Stickman Hook",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/11.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/11.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "The Hotel",
-    "image": "splash.png",
-    "url": "the-hotel",
+    "name": "Subway Surfers: San Francisco",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/12.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/12.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "The Battle",
-    "image": "thebattle.png",
-    "url": "thebattle",
+    "name": "Attack Hole",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/13.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/13.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "The Heist",
-    "image": "theheist.jpg",
-    "url": "theheist",
+    "name": "Bridge Race",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/14.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/14.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "There Is No Game",
-    "image": "logo.png",
-    "url": "there-is-no-game",
+    "name": "Color Water Sort 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/15.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/15.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "This Is the Only Level",
-    "image": "thisistheonlylevel.png",
-    "url": "thisistheonlylevel",
+    "name": "Hide N Seek",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/16.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/16.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Tiny Fishing",
-    "image": "tiny-fishing.png",
-    "url": "tiny-fishing",
+    "name": "Magic Tiles 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/17.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/17.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Tiny Islands",
-    "image": "splash.png",
-    "url": "tiny-islands",
+    "name": "Stacky Dash",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/18.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/18.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Toss the Turtle",
-    "image": "tosstheturtle.png",
-    "url": "tosstheturtle",
+    "name": "Supreme Duelist",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/19.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/19.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Townscaper",
-    "image": "img/cover.jpg",
-    "url": "townscaper",
+    "name": "Tall Man Run",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/20.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/20.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Tube Jumpers",
-    "image": "img/icon.jpg",
-    "url": "tube-jumpers",
+    "name": "Turbo Stars",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/21.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/21.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Tunnel Rush",
-    "image": "img/tunnel.jpg",
-    "url": "tunnel-rush",
+    "name": "Mob Control HTML5",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/22.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/22.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "TV Static",
-    "image": "static.png",
-    "url": "tv-static",
+    "name": "Pou",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/23.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/23.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Twitch Tetris",
-    "image": "logo.png",
-    "url": "twitch-tetris",
+    "name": "Crossy Road",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/24.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/24.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Veloce",
-    "image": "qN6zkD.png",
-    "url": "veloce",
+    "name": "Basket Battle",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/25.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/25.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Amaze",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/26.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/26.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Geometry Dash Lite",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/27.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/27.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Basketball Frvr",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/28.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/28.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bazooka Boy",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/29.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/29.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bottle Jump 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/30.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/30.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Color Match",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/31.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/31.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Dig Deep",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/32.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/32.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Retro Bowl",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/33.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/33.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Retro Bowl College",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/34.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/34.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Drive Mad",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/35.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/35.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Monster Tracks",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/36.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/36.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Gobble",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/37.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/37.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Five Nights at Freddy's",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/38.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/38.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Five Nights at Freddy's 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/39.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/39.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Five Nights at Freddy's 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/40.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/40.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Five Nights at Freddy's 4",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/41.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/41.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Road of Fury",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/42.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/42.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Driven Wild",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/43.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/43.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Ragdoll Hit",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/44.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/44.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Vex 1",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/45.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/45.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Vex 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/46.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/46.html",
+    "proxy": false,
     "new": false
   },
   {
     "name": "Vex 3",
-    "image": "vex3.png",
-    "url": "vex3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/47.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/47.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Vex 3 XMAS",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/48.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/48.html",
+    "proxy": false,
     "new": false
   },
   {
     "name": "Vex 4",
-    "image": "vex4.png",
-    "url": "vex4",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/49.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/49.html",
+    "proxy": false,
     "new": false
   },
   {
     "name": "Vex 5",
-    "image": "vex.jpeg",
-    "url": "vex5",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/50.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/50.html",
+    "proxy": false,
     "new": false
   },
   {
     "name": "Vex 6",
-    "image": "assets/icon.png",
-    "url": "vex6",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/51.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/51.html",
+    "proxy": false,
     "new": false
   },
   {
     "name": "Vex 7",
-    "image": "assets/icon.png",
-    "url": "vex7",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/52.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/52.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Wall Smash",
-    "image": "thumb.png",
-    "url": "wallsmash",
+    "name": "Vex 8",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/53.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/53.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Waterworks",
-    "image": "square.png",
-    "url": "waterworks",
+    "name": "Vex Challenges",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/54.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/54.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "WeaveSilk",
-    "image": "thumb.png",
-    "url": "weavesilk",
+    "name": "Vex X3M",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/55.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/55.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "WebGL Fluid Simulation",
-    "image": "promo_back.png",
-    "url": "webgl-fluid-simulation",
+    "name": "Vex X3M 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/56.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/56.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "WebRetro",
-    "image": "assets/icons/iconm256.png",
-    "url": "webretro",
+    "name": "Monkey Mart",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/57.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/57.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Win the White House",
-    "image": "splash.png",
-    "url": "win-the-whitehouse",
+    "name": "1v1.LoL",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/58.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/58.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Wolf 3D",
-    "image": "art/wolf3d.png",
-    "url": "wolf3d",
+    "name": "A Dance of Fire and Ice",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/59.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/59.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Achievement Unlocked",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/60.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/60.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Achievement Unlocked 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/61.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/61.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Achievement Unlocked 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/62.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/62.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Angry Birds",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/63.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/63.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Backrooms",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/64.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/64.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Baldi's Basics",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/65.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/65.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Basket Random",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/66.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/66.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Big Tower Tiny Square",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/67.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/67.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Big NEON Tower Tiny Square",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/68.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/68.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Big ICE Tower Tiny Square",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/69.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/69.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "BitLife",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/70.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/70.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bloons TD",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/71.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/71.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bloons TD 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/72.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/72.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bloons TD 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/73.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/73.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bloons TD 4",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/74.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/74.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bloons TD 5",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/75.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/75.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bob The Robber 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/76.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/76.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Boxing Random",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/77.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/77.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Burrito Bison",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/78.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/78.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cannon Basketball",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/79.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/79.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cannon Basketball 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/80.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/80.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cluster Rush",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/81.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/81.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cookie Clicker",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/82.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/82-aa.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Coreball",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/83.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/83.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cubefield",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/84.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/84.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cut the Rope",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/85.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/85.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Draw Climber",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/86.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/86.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Emulator.JS",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/87.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/87.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fireboy and Watergirl 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/88.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/88.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fireboy and Watergirl 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/89.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/89.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Granny",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/90.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/90.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Gunspin",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/91.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/91.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Highway Racer 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/92.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/92.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Johnny Trigger",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/93.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/93.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Journey Downhill",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/94.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/94.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Line Rider",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/95.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/95.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Moto X3M",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/96.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/96.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Moto X3M 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/97.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/97.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Moto X3M 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/98.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/98.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Moto X3M Spooky",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/99.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/99.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Moto X3M Winter",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/100.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/100.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Ninja vs EvilCorp",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/101.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/101.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Paper.io 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/102.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/102.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "The World's Hardest Game",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/103.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/103.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "The World's Hardest Game 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/104.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/104.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "The World's Hardest Game 4",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/105.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/105.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "This Is The Only Level",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/106.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/106.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "This Is The Only Level 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/107.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/107.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Tiny Fishing",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/108.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/108.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Tomb Of The Mask",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/109.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/109.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Toss The Turtle",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/110.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/110-f.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Tube Jumpers",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/111.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/111.html",
+    "proxy": false,
     "new": false
   },
   {
     "name": "Wordle",
-    "image": "img/logo_512x512.png",
-    "url": "wordle",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/112.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/112.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "World's Hardest Game",
-    "image": "images/splash.jpg",
-    "url": "worlds-hardest-game",
+    "name": "Ruffle",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/113.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/113.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "World's Hardest Game 2",
-    "image": "the-worlds-hardest-game-2.jpg",
-    "url": "worlds-hardest-game-2",
+    "name": "2048",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/114.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/114.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "X-Trial Racing",
-    "image": "splash.png",
-    "url": "x-trial-racing",
+    "name": "8 Ball Pool",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/115.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/115.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "xx142-B2.exe",
-    "image": "splash.png",
-    "url": "xx142-b2exe",
+    "name": "Offroad Mountain Bike",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/116.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/116.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Yoshi Fabrication",
-    "image": "icons/icon-512.png",
-    "url": "yoshifabrication",
+    "name": "Space Waves",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/117.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/117.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "You Are Bezos",
-    "image": "img/banner.png",
-    "url": "you-are-bezos",
+    "name": "Solar Smash",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/118.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/118.html",
+    "proxy": false,
     "new": false
   },
   {
-    "name": "Zombs Royale",
-    "image": "zomb.png",
-    "url": "zombs-royale",
+    "name": "Snow Rider 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/119.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/119.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fortzone Battle Royale",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/120.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/120.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Brawl Guys.io",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/121.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/121.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Survival Race",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/122.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/122.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Poly Track",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/123.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/123.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Moto X3M Pool Party",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/124.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/124.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Granny 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/125.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/125.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Granny 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/126.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/126.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fashion Battle",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/127.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/127.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Slice it All",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/128.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/128.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Flappy Bird",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/129.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/129.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "osu!",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/130.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/130.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: Barcelona",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/131.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/131.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: Beijing",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/132.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/132.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: Berlin",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/133.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/133.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: Buenos Aires",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/134.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/134.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: Havana",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/135.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/135.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: Houston",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/136.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/136.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: Iceland",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/137.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/137.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: London",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/138.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/138.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: Mexico",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/139.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/139.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: Miami",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/140.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/140.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: Monaco",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/141.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/141.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: New Orleans",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/142.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/142.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: St. Petersburg",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/143.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/143.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: Winter Holiday",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/144.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/144.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Subway Surfers: Zurich",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/145.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/145.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "8 Ball Classic",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/146.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/146.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Angry Birds Showdown",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/147.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/147.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Archery World Tour",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/148.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/148.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Ball Blast",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/149.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/149.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cannon Balls 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/150.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/150.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Chess Classic",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/151.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/151.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Draw the Line",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/152.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/152.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Flappy Dunk",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/153.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/153.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fork n Sausage",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/154.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/154.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Guess Their Answer",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/155.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/155.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Harvest.io",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/156.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/156.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Hill Climb Racing Lite",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/157.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/157.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Pac-Man Superfast",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/158.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/158.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Parking Rush",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/159.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/159.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Race Master 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/160.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/160.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "State.io",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/161.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/161.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Tower Crash 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/162.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/162.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Trivia Crack",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/163.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/163.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Crazy Cattle 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/164.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/164-temp2.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cheese Chompers 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/165.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/165.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bad Parenting 1",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/166.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/166.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Blade Ball",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/167.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/167.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Blocky Snakes",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/168.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/168.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bloxorz",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/169.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/169.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Big Tower Tiny Square 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/170.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/170.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Candy Crush",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/171.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/171.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Melon Playground",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/172.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/172.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Drift Hunters",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/173.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/173.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "World Box",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/174.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/174.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Run 1",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/175.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/175.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Run 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/176.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/176.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Run 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/177.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/177.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Swords and Souls",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/178.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/178.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Soundboard",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/179.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/179.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "n-gon",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/180.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/180.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Minecraft 1.8.8",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/181.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/181.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Minecraft 1.12.2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/182.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/182.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Minecraft 1.21.4",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/183.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/183.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Five Nights at Freddy's: Sister Location",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/185.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/185.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Ragdoll Archers",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/186.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/186.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papers, Please",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/187.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/187.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Scrap Metal 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/188.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/188.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Five Nights at Freddy's: World",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/190.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/190.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Five Nights at Freddy's: Pizza Simulator",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/191.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/191.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Five Nights at Freddy's: Ultimate Custom Night",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/192.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/192.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Do NOT Take This Cat Home",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/193.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/193.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "People Playground",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/194.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/194.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "R.E.P.O",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/195.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/195.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "ULTRAKILL",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/196.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/196-fixed.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Elastic Man",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/197.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/197.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Slope",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/198.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/198.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Time Shooter 1",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/199.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/199.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Time Shooter 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/200.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/200.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Time Shooter 3: SWAT",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/201.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/201.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Carrom Clash",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/202.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/202.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "DOOM",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/203.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/203-a.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Five Nights at Winston's",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/204.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/204.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Buckshot Roulette",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/205.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/205.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Tunnel Rush",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/206.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/206.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Snowbattle.io",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/207.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/207.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Rolly Vortex",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/208.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/208.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Draw the Hill",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/209.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/209.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Dragon vs Bricks",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/210.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/210.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Death Run 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/211.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/211.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cut the Rope",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/212.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/212.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cut the Rope: Time Travel",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/213.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/213.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cut the Rope: Holiday Gift",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/214.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/214.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bendy and the Ink Machine",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/215.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/215.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "That's Not My Neighbor",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/216.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/216.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Hotline Miami",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/217.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/217-c.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Bakeria",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/218.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/218.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Burgeria",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/219.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/219.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Cheeseria",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/220.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/220.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Cupcakeria",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/221.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/221.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Donuteria",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/222.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/222.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Freezeria",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/223.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/223.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Hot Doggeria",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/224.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/224.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Pancakeria",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/225.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/225.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Pastaria",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/226.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/226.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Pizeria",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/227.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/227.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Scooperia",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/228.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/228.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Sushiria",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/229.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/229.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Taco Mia",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/230.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/230.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papa's Wingeria",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/231.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/231.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Plants vs Zombies",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/232.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/232.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Superhot",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/233.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/233.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Duck Life",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/234.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/234.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Duck Life 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/235.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/235.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Duck Life 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/236.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/236.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Duck Life 4",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/237.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/237.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Duck Life 5",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/238.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/238.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Red Ball",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/239.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/239.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Red Ball 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/240.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/240.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Red Ball 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/241.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/241.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Red Ball 4",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/242.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/242.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Red Ball 4 Vol. 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/243.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/243.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Red Ball 4 Vol. 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/244.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/244.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Wheely",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/245.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/245.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Wheely 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/246.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/246.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Wheely 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/247.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/247.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Wheely 4",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/248.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/248.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Wheely 5",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/249.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/249.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Wheely 6",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/250.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/250.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Wheely 7",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/251.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/251.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Wheely 8",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/252.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/252.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Chat Bot (A.|.I)",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/253.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/253.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Crazy Chicken 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/255.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/255.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Crazy Kitty 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/256.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/256.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Google Baseball",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/257.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/257.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "A Bite at Freddy's",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/258.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/258.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Class of '09",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/259.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/259.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "RE:RUN",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/260.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/260.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fruit Ninja",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/261.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/261.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Half Life",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/262.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/262.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Quake III Arena",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/263.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/263.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Escape Road",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/264.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/264.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Escape Road 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/265.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/265.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Speed Stars",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/266.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/266.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Pizza Tower",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/267.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/267.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bacon May Die",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/268.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/268.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bad Ice Cream",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/269.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/269.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bad Ice Cream 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/270.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/270.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bad Ice Cream 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/271.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/271.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Basketball Stars",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/272.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/272.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "BlockPost",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/273.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/273.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "CircloO",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/274.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/274.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "CircloO 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/275.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/275.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Drift Boss",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/276.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/276.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Evil Glitch",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/277.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/277.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Madalin Stunt Cars 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/278.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/278.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Madalin Stunt Cars 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/279.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/279.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Papery Planes",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/280.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/280.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Pixel Gun Survival",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/281.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/281.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Protektor",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/282.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/282.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Rooftop Snipers",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/283.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/283.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "War The Knights",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/284.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/284.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Basket Bros",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/285.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/285.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Endoparasitic",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/286.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/286.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Riddle School",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/287.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/287.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Riddle School 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/288.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/288.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Riddle School 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/289.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/289.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Riddle School 4",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/290.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/290.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Riddle School 5",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/291.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/291.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Riddle Transfer",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/292.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/292.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Riddle Transfer 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/293.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/293.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Idle Dice",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/294.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/294.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "12 Mini Battles",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/295.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/295.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Play!.js",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/296.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/296.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Minecraft 1.5.2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/297.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/297.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Minecraft Alpha 1.2.6",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/298.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/298.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Minecraft Beta 1.3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/299.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/299.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Minecraft Beta 1.7.3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/300.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/300.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Minecraft Indev",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/301.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/301.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Little Runmo",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/302.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/302.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Territorial.io",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/303.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/303.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Alien Hominid",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/304.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/304.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Tanuki Sunset",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/305.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/305.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Shipo.io",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/306.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/306.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Rainbow Obby",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/307.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/307.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Nazi Zombies: Portable",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/308.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/308.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Sandboxels",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/309.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/309.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Dreadhead Parkour",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/310.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/310.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Sandtris",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/311.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/311.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "BlackJack",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/312.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/312.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Minesweeper Mania",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/313.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/313.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Super Mario Bros",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/314.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/314.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Jelly Mario",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/315.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/315.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Angry Birds Chrome",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/316.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/316.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "sandspiel",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/317.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/317.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Side Effects",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/318.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/318.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Build a Queen",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/319.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/319.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "3D Bowling",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/320.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/320.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Room Sort",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/321.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/321.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Sushi Roll",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/322.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/322.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Find the Alien",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/323.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/323.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Maze Speedrun",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/324.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/324.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Kitchen Bazar",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/325.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/325.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Pokey Ball",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/326.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/326.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Slime.io",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/327.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/327.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Om Nom Run",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/328.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/328.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "TileTopia",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/329.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/329.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "BitPlanes",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/330.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/330.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Crazy Cars",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/331.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/331.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Going Balls",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/332.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/332.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fancy Pants Adventure",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/333.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/333.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fancy Pants Adventure 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/334.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/334.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fancy Pants Adventure 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/335.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/335.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fancy Pants Adventure 4 Part 1",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/336.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/336.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fancy Pants Adventure 4 Part 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/337.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/337.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Getaway Shootout",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/338.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/338.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "House of Hazards",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/339.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/339.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Learn to Fly",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/340.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/340.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Learn to Fly 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/341.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/341.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Learn to Fly 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/342.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/342.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Learn to Fly Idle",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/343.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/343.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Raft Wars",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/344.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/344.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Raft Wars 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/345.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/345.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Sort the Court",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/346.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/346.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "SpiderDoll",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/347.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/347.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "They Are Coming",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/348.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/348.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Spiral Roll",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/349.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/349.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Binding of Issac: Wrath of the Lamb",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/350.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/350.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Happy Sheepies",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/351.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/351.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "DON'T YOU LECTURE ME",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/352.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/352.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Blumgi Rocket",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/353.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/353.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Adventure Capatalist",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/354.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/354.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Dadish 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/355.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/355.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Dadish 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/356.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/356.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Dadish",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/357.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/357.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Dadish 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/358.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/358.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Daily Dadish",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/359.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/359.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "EvoWars.io",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/360.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/360.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Google Feud",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/361.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/361.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Idle Breakout",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/362.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/362.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Idle Lumber Inc",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/363.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/363.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Idle Mining Empire",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/364.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/364.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "JustFall.lol",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/365.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/365.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Merge Harvest",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/366.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/366.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Parking Fury 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/367.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/367.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Slope 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/368.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/368.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Slowroads",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/369.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/369.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Smash Karts",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/370.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/370.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Stickman Fight Ragdoll",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/371.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/371.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Stickman Boost",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/372.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/372.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Stickman Climb",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/373.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/373.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Stickman Golf",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/374.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/374.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "2048 Merge Run",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/375.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/375.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Build a Big Army",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/376.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/376.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Build a Plane",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/377.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/377.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Camouflage and Sniper",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/378.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/378.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Car Survival 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/379.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/379.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "City Defense",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/380.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/380.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Clothing Shop 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/381.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/381.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cool Cars Run 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/382.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/382.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Crush Cars 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/383.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/383.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Destiny Run 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/384.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/384.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Destroy The Car 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/385.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/385.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Diamond Seeker",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/386.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/386.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Draw Joust",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/387.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/387.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Evolving Bombs 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/388.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/388.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fire and Frost Master",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/389.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/389.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fitness Empire",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/390.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/390.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Flick Goal",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/391.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/391.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Flip Master",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/392.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/392.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Giant Wanted",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/393.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/393.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Gun Clone",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/394.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/394.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Gun Runner",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/395.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/395.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Kaji Run",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/396.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/396.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Make a SuperBoat",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/397.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/397.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Makeover Run",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/398.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/398.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Mega Car Jumps",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/399.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/399.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Money Rush",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/400.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/400.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Monster Box 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/401.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/401.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Office Fight",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/402.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/402.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Robot Invasion",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/403.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/403.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Seat Jam 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/404.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/404.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Shooting Master",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/405.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/405.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Supermarket 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/406.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/406.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Survive to Victory",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/407.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/407.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Telekinesis Attack",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/408.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/408.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Telekinesis Car",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/409.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/409.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Telekinesis Drive",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/410.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/410.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Telekinesis",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/411.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/411.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Triple Match 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/412.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/412.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Tug of War with Cars",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/413.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/413.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Twerk Race 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/414.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/414.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Twisted Rope 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/415.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/415.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Wall Crawler",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/416.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/416.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "War Regions",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/417.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/417.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Weapon Craft Run",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/418.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/418.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Weapon Upgrade Rush",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/419.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/419.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Weapon Scale",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/420.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/420.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Rich Run 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/421.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/421.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "High Heels",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/422.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/422.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "WebFishing",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/423.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/423.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Andy's Apple Farm",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/426.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/426.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "OMORI",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/427.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/427-z.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Five Nights at Freddy's 4: Halloween",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/428.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/428.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Code Editor",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/429.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/429.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "10 Minutes Till Dawn",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/430.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/430.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "99 Balls",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/431.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/431.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Abandoned",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/432.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/432.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Yume Nikki",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/433.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/433.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "God's Flesh",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/434.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/434.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "A Small World Cup",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/435.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/435.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Awesome Tanks",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/436.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/436.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bouncemasters",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/437.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/437.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Awesome Tanks 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/438.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/438.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bank Robbery 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/439.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/439.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Celeste PICO",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/440.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/440.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Kitty Toy",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/441.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/441.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Infinimoes",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/442.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/442.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Adventure Drivers",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/443.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/443.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Ages of Conflict",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/444.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/444.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Kindergarten",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/445.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/445.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Kindergarten 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/446.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/446.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Nijika's Ahoge",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/447.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/447-e.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Aquapark.io",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/448.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/448.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "City Smash",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/449.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/449.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Amanda the Adventurer",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/450.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/450.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Slender: The 8 Pages",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/451.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/451.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Station 141",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/452.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/452.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Station Saturn",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/453.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/453.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "BLOODMONEY!",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/454.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/454.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "BERGENTRUCK 201x",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/455.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/455.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Undertale Yellow",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/456.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/456.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Raft",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/457.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/457.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "The Deadseat",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/458.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/458.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "The Man In The Window",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/459.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/459.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fears to Fathom: Home Alone",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/460.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/460.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Slither.io",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/461.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/461.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "DEAD PLATE",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/462.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/462.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Lacey's Flash Games",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/463.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/463.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Choppy Orc",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/464.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/464.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cuphead",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/465.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/465.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Baldi's Basics Classic Remastered",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/466.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/466.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Baldi's Basics Plus",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/467.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/467-updatee.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Hollow Knight",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/468.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/468-a.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "sandstone",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/469.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/469.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Doodle Jump",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/470.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/470.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Madness Combat: Project Nexus (classic)",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/471.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/471.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bad Time Simulator",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/472.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/472.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Spacebar Clicker",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/473.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/473.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': V.S. Whitty",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/474.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/474.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': B-Sides",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/475.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/475.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Vs. Hex",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/476.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/476.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Vs. Hatsune Miku",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/477.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/477.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Neo",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/478.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/478.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Steal A Brainrot",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/479.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/479.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Sarvente's Mid-Fight Masses",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/480.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/480.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': vs. Tricky",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/481.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/481.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Human Expenditure Program",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/482.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/482-2.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Hit Single Real",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/483.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/483.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Creepypasta JP",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/484.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/484.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': vs. Garcello",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/485.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/485.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Sonic Legacy",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/486.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/486.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': vs. QT",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/487.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/487.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Mistful Crimson Morning Reboot",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/488.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/488.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Indie Cross",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/489.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/489.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Rooftop Snipers 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/490.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/490.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "I woke up next to you again.",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/491.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/491.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "UNDERWHEELS",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/492.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/492.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "RigBMX",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/493.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/493.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "RigBMX 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/494.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/494.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "groon groon, babey!",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/495.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/495.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Jeffy's Endless Aethos",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/496.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/496.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': vs. BOPCITY",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/497.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/497.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': 17 Bucks: Floor 1",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/498.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/498.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': FIRE IN THE HOLE: Lobotomy Dash Funkin'",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/499.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/499.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': TWIDDLEFINGER",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/500.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/500.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Kindergarten 3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/501.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/501.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Stick With It",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/502.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/502.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Five Nights at Candy's",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/503.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/503.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Five Nights at Candy's 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/504.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/504.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Pokemon Red",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/505.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/505.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Pokemon Emerald",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/506.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/506.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "The Impossible Quiz",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/507.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/507.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Super Mario Bros",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/508.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/508.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin\u2019 Soft",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/509.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/509.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Tomodachi Collection",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/510.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/510.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Doge Miner",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/511.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/511.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Final Earth 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/512.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/512.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Swordfight!!",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/513.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/513.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "PortaBoy+",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/514.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/514.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Pac Man (Horror)",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/515.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/515.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Oshi Oshi Punch!",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/516.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/516.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Nubby's Number Factory",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/517.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/517.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Touhou: Luminous Strike",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/518.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/518.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Generic Fighter Maybe",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/519.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/519.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Dan The Man",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/520.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/520.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bust a Loop",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/521.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/521.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Bad Monday Simulator",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/522.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/522.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Touhou Mother",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/523.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/523.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Parappa The Rapper",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/524.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/524.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Darkness Takeover",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/525.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/525.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "SpongeBob SquarePants: Land Ho!",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/526.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/526.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "SpongeBob SquarePants: SpongeBob Run",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/527.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/527.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "SpongeBob SquarePants: Squidward's Sizzlin' Scare",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/528.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/528.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "SpongeBob SquarePants: Sandy's Sponge Stacker",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/529.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/529.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "SpongeBob SquarePants: Tasty Pastry Party",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/530.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/530.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "SpongeBob SquarePants: The Kah-Ray-Tay Squid",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/531.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/531.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "SpongeBob SquarePants: WereSquirrel",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/532.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/532.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "SpongeBob SquarePants: Krabby Katch",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/533.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/533.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Teen Titans GO!: Jump Jousts",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/534.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/534.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Teen Titans GO!: Jump Jousts 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/535.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/535.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cat Connection",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/536.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/536.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Cat Gunner: Super Zombie Shoot",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/537.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/537.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Love Letters",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/538.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/538.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Chiikawa Puzzle",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/539.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/539.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "myTeardrop",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/540.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/540.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Pibby: Apocalypse",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/541.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/541.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Karlson",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/542.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/542-a.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Jelly Drift",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/543.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/543-a.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Plinko",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/544.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/544.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Clash Of Vikings",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/545.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/545.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Recoil",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/546.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/546.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Baseball Bros",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/547.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/547.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Football Bros",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/548.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/548.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Sonic the Hedgehog 2: Community's Cut",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/549.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/549.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Sonic the Hedgehog 3: Angel Island Remastered",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/550.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/550.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Hypper Sandbox",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/551.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/551.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Aviamasters",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/552.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/552.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Rolling Sky",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/553.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/553.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Yandere Simulator",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/554.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/554.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin VS. KAPI",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/555.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/555.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin VS. Sky",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/556.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/556.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Getting Over It with Bennett Foddy",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/557.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/557.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin Vs. Cyber Sensation",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/558.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/558.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin vs Shaggy",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/559.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/559.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Deltatraveler",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/560.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/560.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "BitGun.io",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/561.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/561.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Boom Slingers: Reboom",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/562.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/562.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "CG FC 25",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/563.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/563.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Count Masters: Stickman Games",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/564.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/564.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Dalgona Candy Honeycomb Cookie",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/565.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/565.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Highway Racer",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/567.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/567.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Highway Racer 2 REMASTERED",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/568.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/568.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Hula Hoop Race",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/569.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/569.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Jelly Restaurant",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/570.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/570.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Layers Roll",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/571.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/571.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Lazy Jumper",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/572.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/572.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Man Runner 2048",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/573.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/573.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Pottery Master",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/574.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/574.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Shovel 3D",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/575.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/575.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Sky Riders",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/576.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/576.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Steal Brainrot Online",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/577.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/577.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Stickman and Guns",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/578.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/578.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Super Star Car",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/579.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/579.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Traffic Rider",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/580.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/580.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "BuildNow.gg",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/581.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/581.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Mario's Madness",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/582.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/582.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin\u2019 Wednesday's Infidelity",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/583.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/583.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Stone Grass Mowing Simulator",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/584.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/584.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Fallout",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/585.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/585.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "The Oregon Trail",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/586.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/586.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Newgrounds Rumble",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/587.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/587.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Super Mario 64",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/588.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/588.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Sonic CD",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/589.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/589.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Sonic Mania",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/590.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/590.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Slime Rancher",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/591.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/591-a.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Pac Man World",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/592.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/592.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Pac Man World 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/593.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/593.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Waterworks!",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/594.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/594.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Shapez.io",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/595.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/595.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "[!] COMMENTS",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/596.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/596-u.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Plants vs. Zombies 2 Gardenless",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/597.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/597.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Sonic.EXE",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/598.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/598.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Metal Gear Solid",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/599.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/599.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "FNF Vs. Hypno's Lullaby v2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/600.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/600.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "FNF Vs. Sonic.EXE 3.0/4.0",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/601.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/601.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Doom 2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/602.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/602.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Growden.io",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/603.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/603-aa.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Minesweeper Plus",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/604.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/604.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Schoolboy Runaway",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/605.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/605-e.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Sonic.EXE (ORIGINAL)",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/606.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/606-e.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Tattletail",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/607.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/607-e.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin VS Impostor v4",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/608.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/608.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin vs Sunday Remastered HD",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/609.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/609-a.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin vs Carol V2",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/610.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/610.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "The Legend of Zelda Ocarina of Time",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/611.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/611.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "The Legend of Zelda Majora's Mask",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/612.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/612.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin\u2019 Drop and Roll, but Playable",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/613.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/613.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Toy Rider",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/614.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/614.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin Vs. Dave and Bambi v3",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/615.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/615.html-a",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin\u2019 Wednesday's Infidelity",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/616.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/616.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Postal",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/617.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/617-a.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "FNF vs Bob v2.0 (Bob\u2019s Onslaught)",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/618.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/618.html",
+    "proxy": false,
     "new": false
   }
 ]

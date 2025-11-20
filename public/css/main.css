@@ -130,6 +130,8 @@ body {
 }
 
 .navbar-link {
+  align-items: center;
+  justify-content: center;
   color: var(--text-color);
   text-decoration: none;
   font-size: 1rem;
@@ -742,6 +744,9 @@ main {
 .swal2-actions .swal2-confirm:active,
 .swal2-actions .swal2-cancel:active {
   transform: scale(0.95);
+}
+div:where(.swal2-icon).swal2-info {
+  color: var(--primary-color) !important;
 }
 @keyframes smoothZoomIn {
   from {

@@ -202,6 +202,9 @@ app.get("/go", (req, res) => {
 app.get("/new", (req, res) => {
   res.sendFile(join(__dirname, publicPath, "html", "new.html"));
 });
+app.get("/more", (req, res) => {
+  res.sendFile(join(__dirname, publicPath, "html", "more.html"));
+});
 app.get("/package.json", (req, res) => {
   res.json(packageJson);
 });

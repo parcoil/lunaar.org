@@ -584,7 +584,7 @@
         const newTabBtn = document.getElementById("new-tab");
         let tabCount = 0;
 
-        function createTab(url = "/new") {
+        async function createTab(url = "/new") {
           tabCount++;
           const id = "tab-" + tabCount;
 
@@ -595,9 +595,25 @@
           tabsContainer.appendChild(tab);
 
           const iframe = document.createElement("iframe");
-          iframe.src = url;
           iframe.id = id;
           framesContainer.appendChild(iframe);
+
+          if (url.includes("jsdelivr")) {
+            try {
+              const response = await fetch(url);
+              const html = await response.text();
+              iframe.contentDocument.open();
+              iframe.contentDocument.write(html);
+              iframe.contentDocument.close();
+              iframe.dataset.originalUrl = url;
+            } catch (error) {
+              console.error("Error loading jsdelivr content:", error);
+              iframe.src = "/new";
+            }
+          } else {
+            iframe.src = url;
+            iframe.dataset.originalUrl = url;
+          }
 
           tab.addEventListener("click", (e) => {
             if (e.target.classList.contains("close")) {
@@ -624,7 +640,7 @@
           if (tab && iframe) {
             tab.classList.add("active");
             iframe.classList.add("active");
-            prxAddress.value = iframe.src;
+            prxAddress.value = iframe.dataset.originalUrl || iframe.src;
           }
         }
 
@@ -689,7 +705,7 @@
           }
           try {
             const res = await fetch(
-              `/api/autocomplete?q=${encodeURIComponent(query)}`
+              `/api/autocomplete?q=${encodeURIComponent(query)}`,
             );
             const suggestions = await res.json();
             autocompleteBox.innerHTML = "";
@@ -723,14 +739,32 @@
             e.preventDefault();
             const query = searchInput.value.trim();
             if (query) {
-              let urlforprx;
-              if (localStorage.getItem("proxy-backend") === "ultraviolet") {
-                urlforprx = window.encodeAny(query);
-              } else {
-                urlforprx = window.sjEncodeAndGo(query);
-              }
               const frame = getActiveFrame();
-              if (frame) frame.src = urlforprx;
+              if (frame) {
+                if (query.includes("jsdelivr")) {
+                  fetch(query)
+                    .then((res) => res.text())
+                    .then((html) => {
+                      frame.contentDocument.open();
+                      frame.contentDocument.write(html);
+                      frame.contentDocument.close();
+                      frame.dataset.originalUrl = query;
+                    })
+                    .catch((error) => {
+                      console.error("Error loading jsdelivr content:", error);
+                      frame.src = "/new";
+                    });
+                } else {
+                  let urlforprx;
+                  if (localStorage.getItem("proxy-backend") === "ultraviolet") {
+                    urlforprx = window.encodeAny(query);
+                  } else {
+                    urlforprx = window.sjEncodeAndGo(query);
+                  }
+                  frame.src = urlforprx;
+                  frame.dataset.originalUrl = query;
+                }
+              }
               autocompleteBox.innerHTML = "";
               autocompleteBox.style.display = "none";
             }
@@ -749,8 +783,16 @@
         let startUrl;
 
         if (lpUrl) {
-          if (lpUrl.startsWith("/uv") || lpUrl.startsWith("/scramjet")) {
+          if (lpUrl.includes("jsdelivr")) {
             startUrl = lpUrl;
+          } else if (lpUrl.startsWith("/uv") || lpUrl.startsWith("/scramjet")) {
+            startUrl = lpUrl;
+          } else if (lpUrl.startsWith("http")) {
+            if (localStorage.getItem("proxy-backend") === "ultraviolet") {
+              startUrl = window.encodeAny(lpUrl);
+            } else {
+              startUrl = window.sjEncodeAndGo(lpUrl);
+            }
           } else {
             startUrl = `/cdn/${lpUrl}/`;
           }

@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - Lunaar</title>
+    <link
+      rel="icon"
+      href="../media/logo.svg"
+      type="image/x-icon"
+      id="favicon"
+    />
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/Parcoil/cloak@main/src/index.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-W8NZMM8WN9"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-W8NZMM8WN9");
+    </script>
+
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1565760898646999"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      //prettier-ignore
+      !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+      posthog.init("phc_P06vTyQqGuoDZVvO6sIw4diVNQH1vcqahBmrqhx1TrO", {
+        api_host: "https://us.i.posthog.com",
+        defaults: "2025-05-24",
+      });
+    </script>
+    <script
+      id="aclib"
+      type="text/javascript"
+      src="//acscdn.com/script/aclib.js"
+    ></script>
+
+    <style>
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        50% {
+          transform: scale(1.05);
+          opacity: 0.8;
+        }
+      }
+
+      .section-card {
+        background: var(--bg-2-color);
+        border: 2px solid var(--border-color);
+        border-radius: var(--border-radius);
+        padding: 50px 40px;
+        margin-bottom: 30px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+        transition:
+          transform 0.2s,
+          border-color 0.2s;
+      }
+
+      .section-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--primary-color);
+      }
+
+      .section-header {
+        text-align: center;
+        margin-bottom: 35px;
+      }
+
+      .section-icon {
+        font-size: 64px;
+        color: var(--primary-color);
+        margin-bottom: 15px;
+      }
+
+      .section-icon.pulse {
+        animation: pulse 2s infinite;
+      }
+
+      .section-title {
+        color: var(--primary-color);
+        margin: 0 0 15px 0;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      .section-subtitle {
+        font-size: 1rem;
+        color: var(--text-color);
+        opacity: 0.7;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .credits-grid,
+      .partners-grid {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        /* flex-wrap: wrap; */
+        margin-top: 30px;
+      }
+
+      .credit-card,
+      .partner-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 140px;
+        height: 140px;
+        background-color: color-mix(in srgb, var(--bg-2-color) 80%, white 5%);
+        border: 2px solid var(--border-color);
+        border-radius: var(--border-radius);
+        text-align: center;
+        color: var(--text-color);
+        transition: all 0.2s;
+        text-decoration: none;
+        padding: 20px;
+        cursor: pointer;
+      }
+
+      .credit-card:hover,
+      .partner-card:hover {
+        transform: scale(1.05);
+        border-color: var(--primary-color);
+      }
+
+      .credit-card img,
+      .partner-card img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .credit-card .fa-brands,
+      .partner-card .fa-brands,
+      .credit-card .fa-solid,
+      .partner-card .fa-solid {
+        font-size: 48px;
+        margin-bottom: 10px;
+        color: var(--primary-color);
+      }
+
+      .card-label {
+        font-size: 1rem;
+        font-weight: 600;
+        word-wrap: break-word;
+      }
+
+      .action-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-top: 25px;
+      }
+
+      .btn-with-icon {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+      }
+      .credits-card {
+        width: 500px;
+      }
+      @media (max-width: 600px) {
+        .section-card {
+          padding: 30px 20px;
+        }
+
+        .section-icon {
+          font-size: 48px;
+        }
+
+        .section-title {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar-container"></div>
+    <div id="blobs">
+      <div class="gradiant"></div>
+      <div class="gradiant2"></div>
+      <div class="gradiant3"></div>
+    </div>
+    <div id="particles-js"></div>
+
+    <main>
+      <i
+        class="fa-solid fa-plus"
+        style="font-size: 38px; color: var(--primary-color)"
+      ></i>
+      <h1>More</h1>
+      <div class="ad">
+        <div>
+          <script type="text/javascript">
+            aclib.runBanner({
+              zoneId: "9059670",
+            });
+          </script>
+        </div>
+      </div>
+      <div class="centered-container" style="max-width: 900px">
+        <div style="display: flex; flex-direction: row; gap: 30px">
+          <div class="section-card credits-card">
+            <div class="section-header">
+              <i class="fa-solid fa-code section-icon pulse"></i>
+              <h1 class="section-title">Credits</h1>
+              <p class="section-subtitle">
+                credits to gn-math for some of the games
+              </p>
+            </div>
+
+            <div class="credits-grid">
+              <a
+                href="https://gn-math.github.io/"
+                target="_blank"
+                class="credit-card"
+              >
+                <img src="../media/partners/gnmath.gif" alt="PeteZah" />
+                <span class="card-label">gn-math</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="section-card">
+            <div class="section-header">
+              <i class="fa-solid fa-handshake section-icon"></i>
+              <h2 class="section-title">Partners</h2>
+              <p class="section-subtitle">Other Amazing UBG Sites</p>
+            </div>
+
+            <div class="partners-grid">
+              <a href="#" target="_blank" class="partner-card">
+                <img src="../media/partners/petezah.png" alt="PeteZah" />
+                <span class="card-label">PeteZah</span>
+              </a>
+
+              <a
+                href="https://hub.parcoil.com/site/8"
+                target="_blank"
+                class="partner-card"
+              >
+                <img src="../media/partners/sakura.png" alt="Sakura" />
+                <span class="card-label">Sakura</span>
+              </a>
+              <a
+                href="https://boredomarcade.xyz"
+                target="_blank"
+                class="partner-card"
+              >
+                <img src="../media/partners/boredarcade.png" alt="Sakura" />
+                <span class="card-label">Boredom Arcade</span>
+              </a>
+              <a
+                href="https://talongames-15869241.codehs.me/"
+                target="_blank"
+                class="partner-card"
+              >
+                <img src="../media/partners/talon.png" alt="Sakura" />
+                <span class="card-label">Talon</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="section-card">
+          <div class="section-header">
+            <i class="fa-solid fa-gavel section-icon"></i>
+            <h2 class="section-title">DMCA Notice</h2>
+            <p class="section-subtitle">
+              If you believe your content is being used without permission,
+              please let us know. <br />
+              note: games are not hosted on this site.
+            </p>
+          </div>
+
+          <div style="text-align: center">
+            <button id="dmca-btn" class="btn">
+              <i class="fa-solid fa-envelope"></i> Submit DMCA Notice
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="ad">
+        <div>
+          <script type="text/javascript">
+            aclib.runBanner({
+              zoneId: "9059670",
+            });
+          </script>
+        </div>
+      </div>
+    </main>
+
+    <div class="footer">
+      <a href="https://github.com/parcoil/lunaar.org" class="link">Github</a>
+      <a href="https://dsc.gg/parcoil" class="link">Discord</a>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/more.js"></script>
+    <script>
+      document.getElementById("dmca-btn").addEventListener("click", () => {
+        Swal.fire({
+          title: "DMCA Notice",
+          html: '<p style="text-align: left; margin-bottom: 15px;">Please send your DMCA takedown notice to:</p><p style="font-weight: 600; color: var(--primary-color);">dmca@parcoil.com</p>',
+          icon: "info",
+          confirmButtonText: "Got it",
+          showClass: {
+            popup: "swal2-smooth-in",
+          },
+          hideClass: {
+            popup: "swal2-smooth-out",
+          },
+        });
+      });
+    </script>
+    <script src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <div class="panic-btn-div" id="panicDiv">
+      <button id="panicBtn">Panic</button>
+    </div>
+  </body>
+</html>
