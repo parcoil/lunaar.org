@@ -1,5 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const theme = localStorage.getItem("theme");
+  let theme = localStorage.getItem("theme");
+  if (!theme) {
+    theme = "christmas";
+    localStorage.setItem("theme", theme);
+    document.body.setAttribute("theme", theme);
+  }
   const themeSelect = document.getElementById("theme-select");
   const proxyTransport = document.getElementById("proxy-transport");
   const proxyTransportValue = localStorage.getItem("transport");

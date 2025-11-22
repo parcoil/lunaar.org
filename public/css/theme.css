@@ -365,6 +365,30 @@ body[theme="mocha"] {
   --border-radius: 25px;
 }
 
+/* Christmas Theme */
+/* body[theme="christmas"] {
+  --primary-color: #d32f2f;
+  --secondary-color: #2e7d32;
+  --accent-color: #ffd700;
+  --bg-2-color: #1a1a1a;
+  --bg-color: #0d1117;
+  --text-color: #ffffff;
+  --text-secondary-color: #cccccc;
+  --text-placeholder-color: #999999;
+  --border-color: #333333;
+} */
+body[theme="christmas"] {
+  --primary-color: #d32f2f;
+  --secondary-color: #2e7d32;
+  --accent-color: #019726;
+  --bg-2-color: #1a1a1a;
+  --bg-color: #0d1117;
+  --text-color: #ffffff;
+  --text-secondary-color: #cccccc;
+  --text-placeholder-color: #999999;
+  --border-color: #333333;
+}
+
 /* Orange Theme */
 body[theme="orange"] {
   --primary-color: #ffa600;
@@ -484,20 +508,36 @@ body[theme="yellow"] #particles-js {
 }
 
 body[theme="new"] .card,
+body[theme="new"] .section-card,
 body[theme="grey"] .card,
+body[theme="grey"] .section-card,
 body[theme="greyblack"] .card,
+body[theme="greyblack"] .section-card,
 body[theme="ghost"] .card,
+body[theme="ghost"] .section-card,
 body[theme="bone"] .card,
+body[theme="bone"] .section-card,
 body[theme="gb"] .card,
+body[theme="gb"] .section-card,
 body[theme="gg"] .card,
+body[theme="gg"] .section-card,
 body[theme="brown"] .card,
+body[theme="brown"] .section-card,
 body[theme="dg"] .card,
+body[theme="dg"] .section-card,
 body[theme="moon"] .card,
+body[theme="moon"] .section-card,
 body[theme="red"] .card,
+body[theme="red"] .section-card,
 body[theme="sblue"] .card,
-body[theme="mocha"] .card {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(3px) brightness(80%);
+body[theme="sblue"] .section-card,
+body[theme="mocha"] .card,
+body[theme="mocha"] .section-card,
+body[theme="christmas"] .card,
+body[theme="christmas"] .section-card,
+.section-card {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(3px) brightness(80%) !important;
 }
 
 /* Add background-filter to themes that originally had it */
@@ -511,7 +551,8 @@ body[theme="brown"],
 body[theme="dg"],
 body[theme="moon"],
 body[theme="red"],
-body[theme="sblue"] {
+body[theme="sblue"],
+body[theme="christmas"] {
   --background-filter: blur(3px) brightness(80%);
 }
 

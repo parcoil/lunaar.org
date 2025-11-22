@@ -263,7 +263,10 @@ document.addEventListener("DOMContentLoaded", () => {
   <ul style="list-style-position: inside; text-align: center;">
     <li>ADDED 613 GAMES!</li>
     <li>Added More page</li>
-    <li>Reverted Scramjet as default some users are having issues</li>
+    <li>Reverted Scramjet as default</li>
+    <li>Added Christmas Theme 🎄</li>
+    <li>Added Christmas Countdown</li>
+    <li>Other small changes</li>
   </ul>
   <p>Join the Discord: https://dsc.gg/parcoil</p>
 </div>`;
@@ -273,7 +276,7 @@ document.addEventListener("DOMContentLoaded", () => {
     Swal.fire({
       title: "Announcement",
       html: currentAnnouncement,
-      confirmButtonText: "alr cool",
+      confirmButtonText: "Alr thats cool",
       allowOutsideClick: false,
       allowEscapeKey: false,
     }).then(() => {

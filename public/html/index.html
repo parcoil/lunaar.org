@@ -81,6 +81,10 @@
           });
         </script>
       </div>
+      <i
+        class="fa-solid fa-tree-christmas"
+        style="color: var(--secondary-color); font-size: 50px"
+      ></i>
       <h1 id="rng-text">Hello!</h1>
       <div class="search-container">
         <!-- <img src="/media/cloaks/google.png" alt="" id="search-icon" /> -->
@@ -113,6 +117,13 @@
           </div>
         </div>
       </div>
+      <p style="margin-top: 5px; color: var(--text-color); opacity: 0.8">
+        Join our
+        <a href="https://dsc.gg/parcoil" style="color: var(--primary-color)"
+          >discord</a
+        >
+        for more links!
+      </p>
       <div class="ad">
         <script type="text/javascript">
           aclib.runBanner({
@@ -131,38 +142,68 @@
         margin: 0 auto;
         margin-top: 10px;
         background: var(--bg-2-color);
+        border: 1px solid var(--border-color);
         border-radius: var(--border-radius);
         width: 100%;
         max-width: 500px;
         max-height: 240px;
         overflow-y: auto;
         z-index: 999;
-        border-top: none;
-        padding: 0.25rem 0;
-        animation: fadeIn 0.18s;
+        padding: 4px 0;
+        animation: slideDown 0.2s ease;
         display: none;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+      }
+
+      @keyframes slideDown {
+        from {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
       }
 
       #autocomplete div {
-        padding: 5px 5px;
+        padding: 10px 16px;
         cursor: pointer;
-        justify-content: start;
         display: flex;
+        justify-content: start;
         color: var(--text-color);
-        transition:
-          background 0.18s,
-          color 0.18s;
+        transition: all 0.15s ease;
+        font-size: 14px;
+        position: relative;
         font-family: inherit;
         letter-spacing: 0.01em;
       }
-      #autocomplete div:last-child {
-        border-bottom: none;
+
+      #autocomplete div::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 2px;
+        height: 0;
+        background: var(--primary-color);
+        transition: height 0.2s ease;
+      }
+
+      #autocomplete div:hover::before,
+      #autocomplete div.active::before {
+        height: 100%;
       }
 
       #autocomplete div:hover,
       #autocomplete div.active {
-        background: var(--primary-color);
+        background: linear-gradient(
+          90deg,
+          color-mix(in srgb, var(--primary-color) 80%, rgb(14, 14, 14) 85%),
+          transparent
+        );
         color: #fff;
+        padding-left: 20px;
       }
 
       @keyframes fadeIn {
@@ -336,6 +377,10 @@
         50% {
           transform: translateY(-10px);
         }
+      }
+      .fa-tree-christmas {
+        animation: titleFloat 3s ease-in-out infinite;
+        text-shadow: 0 0 60px var(--secondary-color);
       }
     </style>
     <div class="footer">

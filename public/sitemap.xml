@@ -4,29 +4,46 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://lunaar.org/</loc>
-  <lastmod>2024-10-08T23:52:27+00:00</lastmod>
+  <lastmod>2025-11-21T00:00:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://lunaar.org/science</loc>
-  <lastmod>2024-10-08T23:52:27+00:00</lastmod>
+  <loc>https://lunaar.org/ai</loc>
+  <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lunaar.org/forum</loc>
+  <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lunaar.org/go</loc>
+  <lastmod>2025-11-21T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lunaar.org/math</loc>
-  <lastmod>2024-10-08T23:52:27+00:00</lastmod>
+  <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lunaar.org/more</loc>
+  <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lunaar.org/science</loc>
+  <lastmod>2025-11-21T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lunaar.org/settings</loc>
-  <lastmod>2024-10-08T23:52:27+00:00</lastmod>
+  <lastmod>2025-11-21T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 
 </urlset>

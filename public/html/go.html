@@ -334,7 +334,7 @@
         left: 130px;
         margin: 0 auto;
         margin-top: 10px;
-        background: var(--bg-color);
+        background: var(--bg-2-color);
         border: 1px solid var(--border-color);
         border-radius: var(--border-radius);
         width: 100%;
@@ -389,7 +389,7 @@
       #autocomplete div.active {
         background: linear-gradient(
           90deg,
-          rgba(146, 130, 251, 0.2),
+          color-mix(in srgb, var(--primary-color) 80%, rgb(14, 14, 14) 85%),
           transparent
         );
         color: #fff;
@@ -705,7 +705,7 @@
           }
           try {
             const res = await fetch(
-              `/api/autocomplete?q=${encodeURIComponent(query)}`,
+              `/api/autocomplete?q=${encodeURIComponent(query)}`
             );
             const suggestions = await res.json();
             autocompleteBox.innerHTML = "";
