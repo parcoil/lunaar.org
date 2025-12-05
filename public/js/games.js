@@ -1,7 +1,7 @@
 console.log(
-  `%cLunaar%c v7 - games.js Loaded`,
+  `%\u004C\u0075\u006E\u0061\u0061\u0072%c v7 - games.js Loaded`,
   "font-size: 16px; background-color: #9282fb; border-top-left-radius: 5px; border-bottom-left-radius: 5px; padding: 4px; font-weight: bold;",
-  "font-size: 16px; background-color: #090810; font-weight: bold; padding: 4px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;",
+  "font-size: 16px; background-color: #090810; font-weight: bold; padding: 4px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;"
 );
 
 let allGames = [];
@@ -35,7 +35,7 @@ function applyFilters() {
     .value.toLowerCase();
   if (searchValue) {
     filtered = filtered.filter((game) =>
-      game.name.toLowerCase().includes(searchValue),
+      game.name.toLowerCase().includes(searchValue)
     );
   }
   const searchInput = document.getElementById("search-input");
@@ -137,7 +137,7 @@ function renderGames(games) {
           if (localStorage.getItem("proxy-backend") === "ultraviolet") {
             sessionStorage.setItem(
               "lpurl",
-              __uv$config.prefix + __uv$config.encodeUrl(game.url),
+              __uv$config.prefix + __uv$config.encodeUrl(game.url)
             );
             sessionStorage.setItem("rawurl", game.url);
             window.location.href = "/go";

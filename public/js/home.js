@@ -1,5 +1,5 @@
 console.log(
-  `%cLunaar%c v7 - home.js Loaded`,
+  `%\u004C\u0075\u006E\u0061\u0061\u0072%c v7 - home.js Loaded`,
   "font-size: 16px; background-color: #9282fb; border-top-left-radius: 5px; border-bottom-left-radius: 5px; padding: 4px; font-weight: bold;",
   "font-size: 16px; background-color: #090810; font-weight: bold; padding: 4px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;"
 );
@@ -24,13 +24,13 @@ const greetings = [
   "Hello!",
   "v7 is here!",
   "Freedom",
-  "The Best Proxy",
-  "Welcome to the best proxy",
+  "The Best",
+  "Welcome to the best",
   "Welcome",
   "こんにちは",
   "こんにちは",
   "こんにちは",
-  "Lunaar",
+  "\u004C\u0075\u006E\u0061\u0061\u0072",
   "uhh",
   "Merry Christmas",
   "Merry Christmas",

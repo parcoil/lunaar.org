@@ -248,7 +248,7 @@ server.on("listening", () => {
   console.log();
   console.log(
     chalk.blue(
-      `[ ⭐ ] Please Star on github https://github.com/parcoil/lunaar.org`
+      `[ ⭐ ] Please Star on github &#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x67;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#x6d;&#x2f;&#x70;&#x61;&#x72;&#x63;&#x6f;&#x69;&#x6c;&#x2f;&#x6c;&#x75;&#x6e;&#x61;&#x61;&#x72;&#x2e;&#x6f;&#x72;&#x67;`
     )
   );
   console.log();

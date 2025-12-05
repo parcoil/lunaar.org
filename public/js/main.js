@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-  if (!window.lunaarConsoleLogged) {
+  if (!window.ConsoleLogged) {
     console.log(
-      `%cLunaar%c v7 - main.js Loaded`,
+      `%\u004C\u0075\u006E\u0061\u0061\u0072%c v7 - main.js Loaded`,
       "font-size: 16px; background-color: #9282fb; border-top-left-radius: 5px; border-bottom-left-radius: 5px; padding: 4px; font-weight: bold;",
-      "font-size: 16px; background-color: #090810; font-weight: bold; padding: 4px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;",
+      "font-size: 16px; background-color: #090810; font-weight: bold; padding: 4px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;"
     );
 
     const ascii = `
@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     console.log(
       `%c${ascii}\ndiscord.gg/En5YJYWj3Z`,
-      "font-size: 24px; display: block; white-space: pre; text-align: center;",
+      "font-size: 24px; display: block; white-space: pre; text-align: center;"
     );
 
-    window.lunaarConsoleLogged = true;
+    window.ConsoleLogged = true;
   }
 
   let theme = localStorage.getItem("theme");
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const leafContSSB = document.getElementById("leaf-container");
         if (leafContSSB) leafContSSB.remove();
         const leafScriptSSB = document.querySelector(
-          'script[src="../js/leafs.js"]',
+          'script[src="../js/leafs.js"]'
         );
         if (leafScriptSSB) leafScriptSSB.remove();
         window.leafsLoaded = false;
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const leafContGrey = document.getElementById("leaf-container");
         if (leafContGrey) leafContGrey.remove();
         const leafScriptGrey = document.querySelector(
-          'script[src="../js/leafs.js"]',
+          'script[src="../js/leafs.js"]'
         );
         if (leafScriptGrey) leafScriptGrey.remove();
         window.leafsLoaded = false;
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const leafContAudi = document.getElementById("leaf-container");
         if (leafContAudi) leafContAudi.remove();
         const leafScriptAudi = document.querySelector(
-          'script[src="../js/leafs.js"]',
+          'script[src="../js/leafs.js"]'
         );
         if (leafScriptAudi) leafScriptAudi.remove();
         window.leafsLoaded = false;
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const leafContStar = document.getElementById("leaf-container");
         if (leafContStar) leafContStar.remove();
         const leafScriptStar = document.querySelector(
-          'script[src="../js/leafs.js"]',
+          'script[src="../js/leafs.js"]'
         );
         if (leafScriptStar) leafScriptStar.remove();
         window.leafsLoaded = false;
@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const leafContDef = document.getElementById("leaf-container");
         if (leafContDef) leafContDef.remove();
         const leafScriptDef = document.querySelector(
-          'script[src="../js/leafs.js"]',
+          'script[src="../js/leafs.js"]'
         );
         if (leafScriptDef) leafScriptDef.remove();
         window.leafsLoaded = false;
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (footer) {
         footer.insertAdjacentHTML(
           "beforeend",
-          `<a class="link footer-version" href="https://github.com/parcoil/lunaar.org"> v${ver.version}</a>`,
+          `<a class="link footer-version" href="https://github.com/&#x70;&#x61;&#x72;&#x63;&#x6f;&#x69;&#x6c;/&#x6c;&#x75;&#x6e;&#x61;&#x61;&#x72;.org"> v${ver.version}</a>`
         );
       }
     });
@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.localStorage.getItem("v7toast") === "true"
   ) {
     const randomMessages = [
-      "Did you know? Lunaar V7 is awesome!",
+      "Did you know? \u004C\u0075\u006E\u0061\u0061\u0072 V7 is awesome!",
       "Luna AI is Amazing. you should try it out!",
       "350+ games and counting!",
       "350+ games and counting!",
@@ -167,8 +167,8 @@ document.addEventListener("DOMContentLoaded", () => {
       "https://discord.gg/En5YJYWj3Z",
       "Have a Windows PC? Check out Sparkle! at getsparkle.net",
       "Join our discord for support and updates! discord.gg/En5YJYWj3Z",
-      "Welcome Back to lunaar!",
-      "Welcome Back to lunaar!",
+      "Welcome Back to \u004C\u0075\u006E\u0061\u0061\u0072!",
+      "Welcome Back to \u004C\u0075\u006E\u0061\u0061\u0072!",
       "Tip: You can disable tips in settings (but dont be mean keep them on :3)",
     ];
 
@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   if (localStorage.getItem("v7toast") !== "true") {
     Toastify({
-      text: `Welcome To Lunaar V7`,
+      text: `Welcome To \u004C\u0075\u006E\u0061\u0061\u0072 V7`,
       duration: 5000,
       gravity: "bottom",
       position: "right",
@@ -275,7 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <li>Added Christmas Countdown</li>
     <li>Other small changes</li>
   </ul>
-  <p>Join the Discord: https://dsc.gg/parcoil</p>
+  <p>Join the Discord: &#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x64;&#x73;&#x63;&#x2e;&#x67;&#x67;&#x2f;&#x70;&#x61;&#x72;&#x63;&#x6f;&#x69;&#x6c;</p>
 </div>`;
   const lastAnnouncement = localStorage.getItem("lastAnnouncement");
 

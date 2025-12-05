@@ -33,13 +33,13 @@ document.addEventListener("DOMContentLoaded", function () {
     </g>
   </g>
 </svg></a>
-       <!-- <span class="navbar-title">Lunaar</span> -->
+       <!-- <span class="navbar-title">\u004C\u0075\u006E\u0061\u0061\u0072</span> -->
     </div>
     <div class="navbar-links">
         <a href="/" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-home"></i></span> Home</a>
-        <a href="/science" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-gamepad"></i></span> Games</a>
+        <a href="/science" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas &#x66;&#x61;&#x2d;&#x67;&#x61;&#x6d;&#x65;&#x70;&#x61;&#x64;"></i></span> &#x47;&#x61;&#x6d;&#x65;&#x73;</a>
         <a href="/ai" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-robot"></i></span> AI</a>
-        <a href="/math" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-grid-2"></i></span> Apps</a>
+        <a href="/math" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-grid-2"></i></span> &#x41;&#x70;&#x70;&#x73;</a>
         <a href="/settings" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-cog"></i></span> Settings</a>
         <a href="/more" class="navbar-link"><span class="icon" aria-hidden="true"><i class="fas fa-plus"></i></span> More</a>
     </div>

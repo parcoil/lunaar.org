@@ -45,7 +45,7 @@
           let o = new v(
             e,
             t,
-            C.includes(e.method.toUpperCase()) ? null : await e.blob(),
+            C.includes(e.method.toUpperCase()) ? null : await e.blob()
           );
           if (
             (t.meta.url.protocol === "blob:" &&
@@ -94,7 +94,7 @@
           if (
             (r.headers["set-cookie"] &&
               (Promise.resolve(
-                t.cookie.setCookies(r.headers["set-cookie"], w, t.meta),
+                t.cookie.setCookies(r.headers["set-cookie"], w, t.meta)
               ).then(() => {
                 self.clients.matchAll().then(function (i) {
                   i.forEach(function (n) {
@@ -125,7 +125,7 @@
                   ((r.body = `if (!self.__uv) {
                                 ${t.createJsInject(
                                   t.cookie.serialize(f, t.meta, !0),
-                                  e.referrer,
+                                  e.referrer
                                 )}
                             importScripts(${i});
                             }
@@ -167,7 +167,7 @@
                       t.clientScript,
                       t.configScript,
                       t.cookie.serialize(f, t.meta, !0),
-                      e.referrer,
+                      e.referrer
                     ),
                   });
                 }
@@ -276,7 +276,7 @@
         errorTrace.value = ${JSON.stringify(a)};
         fetchedURL.textContent = ${JSON.stringify(e)};
         for (const node of document.querySelectorAll("#uvHostname")) node.textContent = ${JSON.stringify(
-          location.hostname,
+          location.hostname
         )};
         reload.addEventListener("click", () => location.reload());
         uvVersion.textContent = ${JSON.stringify("3.2.10")};
@@ -286,7 +286,7 @@
         <html>
         <head>
         <meta charset='utf-8' />
-        <title>Error - Lunaar</title>
+        <title>Error - \u004C\u0075\u006E\u0061\u0061\u0072</title>
         <style>
         * { 
           margin: 0;
@@ -502,7 +502,7 @@
           </div>
           
           <div class="error-footer">
-            <i>Lunaar V7 Ultraviolet v<span id="uvVersion"></span> (build <span id="uvBuild"></span>)</i>
+            <i>\u004C\u0075\u006E\u0061\u0061\u0072 V7 Ultraviolet v<span id="uvVersion"></span> (build <span id="uvBuild"></span>)</i>
           </div>
         </div>
         <script src="${

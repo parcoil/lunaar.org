@@ -108,7 +108,7 @@ function encodeTEXT(text) {
       break;
     case "startpage":
       baseUrl = `https://www.startpage.com/sp/search?query=${encodeURIComponent(
-        text,
+        text
       )}`;
       break;
     default:
@@ -160,7 +160,7 @@ function start(url) {
   try {
     if (__uv$config.prefix && __uv$config) {
       sessionStorage.setItem("lpurl", encodeURL(url));
-      // console.log("Lunaar Proxy URL:", sessionStorage.getItem("lpurl"));
+      // console.log("\u004C\u0075\u006E\u0061\u0061\u0072 Proxy URL:", sessionStorage.getItem("lpurl"));
       location.href = "/go";
       sessionStorage.setItem("rawurl", url);
     }
