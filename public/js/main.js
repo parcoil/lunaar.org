@@ -268,14 +268,15 @@ document.addEventListener("DOMContentLoaded", () => {
 <div>
 <h2>(BIG UPDATE) Whats New:</h2>
   <ul style="list-style-position: inside; text-align: center;">
-    <li>ADDED 613 GAMES!</li>
+    <li>ADDED 613 GXMES!</li>
     <li>Added More page</li>
     <li>Reverted Scramjet as default</li>
     <li>Added Christmas Theme 🎄</li>
     <li>Added Christmas Countdown</li>
-    <li>Other small changes</li>
+    <li>Added Animation to gxmes/apps page</li>
+    <li>Performance Improvements</li>
   </ul>
-  <p>Join the Discord: &#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x64;&#x73;&#x63;&#x2e;&#x67;&#x67;&#x2f;&#x70;&#x61;&#x72;&#x63;&#x6f;&#x69;&#x6c;</p>
+  <a>Join the Discord: &#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x64;&#x73;&#x63;&#x2e;&#x67;&#x67;&#x2f;&#x70;&#x61;&#x72;&#x63;&#x6f;&#x69;&#x6c;</a>
 </div>`;
   const lastAnnouncement = localStorage.getItem("lastAnnouncement");
 

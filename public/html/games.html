@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Games - &#x4c;&#x75;&#x6e;&#x61;&#x61;&#x72;</title>
+    <title>Gxmes - &#x4c;&#x75;&#x6e;&#x61;&#x61;&#x72;</title>
     <link
       rel="icon"
       href="../media/logo.svg"
@@ -16,12 +16,8 @@
       rel="stylesheet"
       href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/gh/Parcoil/cloak@main/src/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/toastify.min.css" />
+    <script src="../js/cloak.js"></script>
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -69,7 +65,7 @@
         class="fa-solid fa-gamepad"
         style="font-size: 38px; color: var(--primary-color)"
       ></i>
-      <h1>Games</h1>
+      <h1>Gxmes</h1>
       <div class="ad">
         <div>
           <script type="text/javascript">
@@ -84,17 +80,17 @@
         <input
           type="text"
           id="search-input"
-          placeholder="Search for games..."
+          placeholder="Search for gxmes..."
           class="search"
         />
       </div>
       <div class="filters">
         <p>Filter by type:</p>
         <button class="btn active" id="proxy-btn">
-          <i class="fa-solid fa-cloud"></i> Proxy Games
+          <i class="fa-solid fa-cloud"></i> Proxy Gxmes
         </button>
         <button class="btn active" id="html5-btn">
-          <i class="fa-brands fa-html5"></i> HTML5 Games
+          <i class="fa-brands fa-html5"></i> HTML5 Gxmes
         </button>
       </div>
 
@@ -106,7 +102,9 @@
         class="link"
         >&#x47;&#x69;&#x74;&#x68;&#x75;&#x62;</a
       >
-      <a href="&#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x64;&#x73;&#x63;&#x2e;&#x67;&#x67;&#x2f;&#x70;&#x61;&#x72;&#x63;&#x6f;&#x69;&#x6c;" class="link"
+      <a
+        href="&#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x64;&#x73;&#x63;&#x2e;&#x67;&#x67;&#x2f;&#x70;&#x61;&#x72;&#x63;&#x6f;&#x69;&#x6c;"
+        class="link"
         >&#x44;&#x69;&#x73;&#x63;&#x6f;&#x72;&#x64;</a
       >
     </div>
@@ -128,18 +126,15 @@
     <script src="/uv/register-sw.js" defer></script>
     <script src="/uv/search.js" defer></script>
     <script src="/uv/proxy.js" defer></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/toastify-js"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="../js/toastify-js.js"></script>
+    <script src="../js/sweetalert2.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         if (!localStorage.getItem("gamesModalShown")) {
           Swal.fire({
             title: "Notice",
-            text: "Some games may be buggy. Please report any issues!",
+            text: "Some gxmes may be buggy. Please report any issues!",
             icon: "info",
             confirmButtonText: "Got it!",
             confirmButtonColor: "#9282fb",

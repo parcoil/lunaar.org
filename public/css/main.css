@@ -27,9 +27,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-@view-transition {
+/* @view-transition {
   navigation: auto;
-}
+} */
 html,
 body {
   margin: 0;
@@ -497,6 +497,10 @@ main {
     transform 0.2s,
     background-color 0.2s;
   gap: 10px;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideInItem 0.5s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+  animation-delay: var(--item-delay, 0s);
 }
 .game-item img,
 .app-item img {
@@ -508,6 +512,17 @@ main {
   transition:
     transform 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
+}
+
+@keyframes slideInItem {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .game-item img:hover,
