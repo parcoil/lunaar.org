@@ -16,12 +16,8 @@
       rel="stylesheet"
       href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/gh/Parcoil/cloak@main/src/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/toastify.min.css" />
+    <script src="../js/cloak.js"></script>
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -50,11 +46,18 @@
         defaults: "2025-05-24",
       });
     </script>
-    <script
-      id="aclib"
-      type="text/javascript"
-      src="//acscdn.com/script/aclib.js"
-    ></script>
+<script>
+(function(wexnd){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = wexnd || {};
+s.src = "\/\/guilty-address.com\/bPX.V\/sLdfGNlO0\/YPWGc_\/heAmC9eusZsUTl_kmPzTfY\/3wM_j\/Idx\/N\/DRAvtYNwjacWyfMvjOEl0\/MvQw";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
 
     <style>
       @keyframes pulse {
@@ -191,6 +194,74 @@
       .credits-card {
         width: 500px;
       }
+      .donate-grid {
+        display: flex;
+      flex-direction: row;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+      }
+
+      .donate-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 180px;
+        width: 100%;
+        background-color: color-mix(in srgb, var(--bg-2-color) 80%, white 5%);
+        border: 2px solid var(--border-color);
+        border-radius: var(--border-radius);
+        text-align: center;
+        color: var(--text-color);
+        transition: all 0.2s;
+        padding: 20px;
+        text-decoration: none;
+      }
+
+      .donate-card:hover {
+        transform: scale(1.05);
+        border-color: var(--primary-color);
+      }
+
+      .donate-card i {
+        font-size: 48px;
+        margin-bottom: 15px;
+        color: var(--primary-color);
+      }
+
+      .donate-card .card-label {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      .donate-card p {
+        font-size: 0.75rem;
+        word-break: break-all;
+        margin: 0;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 6px;
+        background: var(--bg-2-color);
+        transition: background 0.2s;
+        width: 100%;
+      }
+
+      .donate-card p:hover {
+        background: var(--primary-color);
+      }
+
+      @media (max-width: 768px) {
+        .donate-grid {
+          grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        }
+        
+        .donate-card {
+          min-height: 160px;
+          padding: 15px;
+        }
+      }
       @media (max-width: 600px) {
         .section-card {
           padding: 30px 20px;
@@ -223,11 +294,18 @@
       <h1>More</h1>
       <div class="ad">
         <div>
-          <script type="text/javascript">
-            aclib.runBanner({
-              zoneId: "9059670",
-            });
-          </script>
+<script>
+(function(mlqpek){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = mlqpek || {};
+s.src = "\/\/guilty-address.com\/b.XUV\/s\/dNGhlZ0\/YuWvct\/Ne\/m_9IuAZtUQlCkoPgTkYA3nMYjxIZx\/MqTAc\/tJN-j\/cByiMBjLEqx\/OXAV";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
         </div>
       </div>
       <div class="centered-container" style="max-width: 900px">
@@ -237,7 +315,7 @@
               <i class="fa-solid fa-code section-icon pulse"></i>
               <h1 class="section-title">Credits</h1>
               <p class="section-subtitle">
-                credits to gn-math for some of the games
+                credits to gn-math for some of the gxmes
               </p>
             </div>
 
@@ -247,7 +325,11 @@
                 target="_blank"
                 class="credit-card"
               >
-                <img src="../media/partners/gnmath.gif" alt="PeteZah" />
+                <img
+                  src="../media/partners/gnmath.gif"
+                  alt="PeteZah"
+                  loading="lazy"
+                />
                 <span class="card-label">gn-math</span>
               </a>
               <a href="https://truffled.lol/" class="credit-card">
@@ -270,7 +352,11 @@
                 target="_blank"
                 class="partner-card"
               >
-                <img src="../media/partners/petezah.png" alt="PeteZah" />
+                <img
+                  src="../media/partners/petezah.png"
+                  alt="PeteZah"
+                  loading="lazy"
+                />
                 <span class="card-label">PeteZah</span>
               </a>
 
@@ -279,7 +365,11 @@
                 target="_blank"
                 class="partner-card"
               >
-                <img src="../media/partners/sakura.png" alt="Sakura" />
+                <img
+                  src="../media/partners/sakura.png"
+                  alt="Sakura"
+                  loading="lazy"
+                />
                 <span class="card-label">Sakura</span>
               </a>
               <a
@@ -287,7 +377,11 @@
                 target="_blank"
                 class="partner-card"
               >
-                <img src="../media/partners/boredarcade.png" alt="Sakura" />
+                <img
+                  src="../media/partners/boredarcade.png"
+                  alt="Sakura"
+                  loading="lazy"
+                />
                 <span class="card-label">Boredom Arcade</span>
               </a>
               <a
@@ -295,7 +389,11 @@
                 target="_blank"
                 class="partner-card"
               >
-                <img src="../media/partners/talon.png" alt="Sakura" />
+                <img
+                  src="../media/partners/talon.png"
+                  alt="Sakura"
+                  loading="lazy"
+                />
                 <span class="card-label">Talon</span>
               </a>
             </div>
@@ -308,7 +406,7 @@
             <p class="section-subtitle">
               If you believe your content is being used without permission,
               please let us know. <br />
-              note: games are not hosted on this site.
+              note: gxmes are not hosted on this site.
             </p>
           </div>
 
@@ -318,14 +416,52 @@
             </button>
           </div>
         </div>
+        <div class="section-card">
+          <div class="section-header">
+            <i class="fa-solid fa-heart section-icon"></i>
+            <h2 class="section-title">Donate</h2>
+            <p class="section-subtitle">
+              Support Lunaar with cryptocurrency donations
+            </p>
+          </div>
+
+          <div class="donate-grid">
+            <div class="donate-card">
+              <i class="fa-brands fa-bitcoin"></i>
+              <span class="card-label">Bitcoin</span>
+              <p onclick="copyToClipboard(this.textContent)">bc1q2w3tm3hx2pflgrn6z5c50h8apcna7rl6u6t9y8</p>
+            </div>
+            <div class="donate-card">
+              <i class="fa-brands fa-ethereum"></i>
+              <span class="card-label">Ethereum</span>
+              <p onclick="copyToClipboard(this.textContent)">0x06404F668FAa59cfA289088f89e9825E66FDaC5C</p>
+            </div>
+            <div class="donate-card">
+             <svg role="img" width="30" height="30" fill="currentColor" style="color: var(--primary-color);"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Solana</title><path d="m23.8764 18.0313-3.962 4.1393a.9201.9201 0 0 1-.306.2106.9407.9407 0 0 1-.367.0742H.4599a.4689.4689 0 0 1-.2522-.0733.4513.4513 0 0 1-.1696-.1962.4375.4375 0 0 1-.0314-.2545.4438.4438 0 0 1 .117-.2298l3.9649-4.1393a.92.92 0 0 1 .3052-.2102.9407.9407 0 0 1 .3658-.0746H23.54a.4692.4692 0 0 1 .2523.0734.4531.4531 0 0 1 .1697.196.438.438 0 0 1 .0313.2547.4442.4442 0 0 1-.1169.2297zm-3.962-8.3355a.9202.9202 0 0 0-.306-.2106.941.941 0 0 0-.367-.0742H.4599a.4687.4687 0 0 0-.2522.0734.4513.4513 0 0 0-.1696.1961.4376.4376 0 0 0-.0314.2546.444.444 0 0 0 .117.2297l3.9649 4.1394a.9204.9204 0 0 0 .3052.2102c.1154.049.24.0744.3658.0746H23.54a.469.469 0 0 0 .2523-.0734.453.453 0 0 0 .1697-.1961.4382.4382 0 0 0 .0313-.2546.4444.4444 0 0 0-.1169-.2297zM.46 6.7225h18.7815a.9411.9411 0 0 0 .367-.0742.9202.9202 0 0 0 .306-.2106l3.962-4.1394a.4442.4442 0 0 0 .117-.2297.4378.4378 0 0 0-.0314-.2546.453.453 0 0 0-.1697-.196.469.469 0 0 0-.2523-.0734H4.7596a.941.941 0 0 0-.3658.0745.9203.9203 0 0 0-.3052.2102L.1246 5.9687a.4438.4438 0 0 0-.1169.2295.4375.4375 0 0 0 .0312.2544.4512.4512 0 0 0 .1692.196.4689.4689 0 0 0 .2518.0739z"/></svg>
+              <span class="card-label">Solana</span>
+              <p onclick="copyToClipboard(this.textContent)">J6avo69y4naAmWZ5ntPqAkqoQDaVFyqe3Gu5avCPBkTP</p>
+            </div>
+            <a href="https://buymeacoffee.com/dogecraft" target="_blank" class="donate-card">
+              <i class="fa-solid fa-mug-hot"></i>
+              <span class="card-label">Buy Me a Coffee</span>
+            </a>
+
+        </div>
       </div>
       <div class="ad">
         <div>
-          <script type="text/javascript">
-            aclib.runBanner({
-              zoneId: "9059670",
-            });
-          </script>
+<script>
+(function(py){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = py || {};
+s.src = "\/\/guilty-address.com\/b.XSVzsmdfG\/lc0fYkWdcg\/Ye\/mz9Mu\/Z\/Unl\/kKPzTdY\/3BMbj\/Ipx_McjyUDtrNYjgc-ysMFj\/EGykNMgA";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
         </div>
       </div>
     </main>
@@ -343,11 +479,8 @@
       >
     </div>
 
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/toastify-js"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="../js/toastify-js.js"></script>
+    <script src="../js/sweetalert2.js"></script>
     <script src="../js/nav.js"></script>
     <script src="../js/more.js"></script>
     <script>
@@ -365,6 +498,23 @@
           },
         });
       });
+
+      function copyToClipboard(text) {
+        navigator.clipboard.writeText(text).then(() => {
+          Toastify({
+            text: "Copied to clipboard!",
+            duration: 3000,
+            gravity: "top",
+            position: "right",
+                    style: {
+          background: "#e74c3c",
+          borderRadius: "var(--border-radius)",
+          boxShadow: "0 4px 20px rgba(0, 0, 0, 0.1)",
+        },
+            backgroundColor: "var(--primary-color)",
+          }).showToast();
+        });
+      }
     </script>
     <script src="../js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>

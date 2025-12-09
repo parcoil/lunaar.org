@@ -73,9 +73,11 @@ function renderGames(games) {
     return 0;
   });
 
-  sortedGames.forEach((game) => {
+  sortedGames.forEach((game, idx) => {
     const gameItem = document.createElement("div");
     gameItem.className = "game-item";
+    // Add staggered animation delay
+    gameItem.style.setProperty("--item-delay", `${idx * 0.03}s`);
 
     const img = document.createElement("img");
     img.alt = game.name;

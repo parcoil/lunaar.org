@@ -19,9 +19,11 @@ function renderApps(apps) {
     return;
   }
 
-  apps.forEach((app) => {
+  apps.forEach((app, idx) => {
     const appItem = document.createElement("div");
     appItem.className = "app-item";
+    // Add staggered animation delay
+    appItem.style.setProperty("--item-delay", `${idx * 0.03}s`);
 
     const img = document.createElement("img");
     img.alt = app.name;
