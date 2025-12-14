@@ -275,6 +275,9 @@ document.addEventListener("DOMContentLoaded", () => {
     <li>Added Christmas Countdown</li>
     <li>Added Animation to gxmes/apps page</li>
     <li>Performance Improvements</li>
+    <li>Updated AI Page</li>
+    <li>Added More AI Models</li>
+    <li>Added blob cloak</li>
   </ul>
   <a>Join the Discord: &#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x64;&#x73;&#x63;&#x2e;&#x67;&#x67;&#x2f;&#x70;&#x61;&#x72;&#x63;&#x6f;&#x69;&#x6c;</a>
 </div>`;
@@ -292,3 +295,76 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+const cloaks = [
+  {
+    name: "default",
+    icon: "./media/logo.svg",
+    title: "&#x4C;&#x75;&#x6E;&#x61;&#x61;&#x72;",
+  },
+  {
+    name: "drive",
+    icon: "./media/cloaks/googledrive.png",
+    title: "Home - Google Drive",
+  },
+  {
+    name: "edpuzzle",
+    icon: "/./media/cloaks/edpuzzle.png",
+    title: "Edpuzzle",
+  },
+  {
+    name: "wikipedia",
+    icon: "/./media/cloaks/wikipedia.ico",
+    title: "Wikipedia",
+  },
+  {
+    name: "classroom",
+    icon: "/./media/cloaks/Classroom.png",
+    title: "Google Classroom",
+  },
+  {
+    name: "canvas",
+    icon: "/./media/cloaks/canvas.png",
+    title: "Dashboard",
+  },
+  {
+    name: "classroom",
+    icon: "/./media/cloaks/classroom.png",
+    title: "Home",
+  },
+  {
+    name: "zoom",
+    icon: "/./media/cloaks/zoom.png",
+    title: "Zoom",
+  },
+  {
+    name: "khan",
+    icon: "/./media/cloaks/khan.ico",
+    title: "Khan Academy",
+  },
+  {
+    name: "desmos",
+    icon: "/./media/cloaks/desmos.ico",
+    title: "Desmos Classroom Activities",
+  },
+  {
+    name: "gforms",
+    icon: "/./media/cloaks/googleforms.png",
+    title: "Start your quiz",
+  },
+  {
+    name: "quizlet",
+    icon: "/./media/cloaks/quizlet.webp",
+    title: "Online Flashcard Maker &amp; Flashcard App | Quizlet",
+  },
+  {
+    name: "blob",
+    icon: "./media/logo.svg",
+    title: "Blob",
+  },
+];
+
+if (!localStorage.getItem("hasSetCloak")) {
+  cloak.setCloak("Google Classroom", "/./media/cloaks/Classroom.png");
+  localStorage.setItem("hasSetCloak", "true");
+}

@@ -6,6 +6,34 @@
     <title>
       &#x47;&#x6f;&#x20;&#x2d;&#x20;&#x4c;&#x75;&#x6e;&#x61;&#x61;&#x72;
     </title>
+    <meta
+      name="title"
+      content="Lunaar Educational Portal - Free Online Learning Resources"
+    />
+    <meta
+      name="description"
+      content="Lunaar Educational Portal - Access academic resources, study materials, and learning tools for students. Explore courses and educational content."
+    />
+    <meta
+      name="keywords"
+      content="educational portal, online learning, study materials, academic resources, free courses, student tools, learning platform, education, study guides"
+    />
+    <meta name="author" content="Parcoil" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lunaar.org/" />
+    <meta
+      property="og:title"
+      content="Lunaar Educational Portal - Free Online Learning Resources"
+    />
+    <meta
+      property="og:description"
+      content="Access academic resources, study materials, and learning tools for students. Explore courses and educational content."
+    />
+    <meta property="og:image" content="https://lunaar.org/media/logo.svg" />
+    <meta property="og:site_name" content="Lunaar" />
     <link
       rel="icon"
       href="../media/logo.svg"
@@ -98,7 +126,6 @@
     <div class="loader"></div>
     <div id="frames"></div>
     <style>
-      /* Enhanced Proxy Page Styles */
       body {
         overflow: hidden;
       }
@@ -419,155 +446,26 @@
         }
       }
     </style>
-    <!-- <style>
-      .loader {
-        width: 50px;
-        aspect-ratio: 1;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 8px;
-        z-index: -1;
-        border-radius: 50%;
-        background: var(--primary-color);
-        --_m:
-          conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
-        -webkit-mask: var(--_m);
-        mask: var(--_m);
-        -webkit-mask-composite: source-out;
-        mask-composite: subtract;
-        animation: l3 1s infinite linear;
-      }
-
-      @keyframes l3 {
-        100% {
-          transform: translate(-50%, -50%) rotate(1turn);
-        }
-      }
-
-      .navbar-links {
-        gap: 0.5rem;
-      }
-      .navbar-link.pro {
-        padding: 10px !important;
-      }
-      #new-tab {
-        margin-top: 5px;
-      }
-      .navbar-proxy {
-        background-color: var(--bg-2-color);
-        padding: 4px;
-      }
-      #tab-bar {
-        display: flex;
-        align-items: center;
-        background: var(--bg-2-color);
-        padding-left: 5px;
-        padding-right: 5px;
-        /* margin-top: 1px; */
-        padding-bottom: 5px;
-
-        /* border-bottom: 2px solid var(--primary-color); */
-      }
-      #tabs {
-        display: flex;
-        gap: 5px;
-        margin-right: 20px;
-        overflow-x: auto;
-      }
-      .tab {
-        background: var(--bg-color);
-        width: 140px;
-        border: 1px solid var(--primary-color);
-        padding: 4px 10px;
-        border-radius: 6px;
-        cursor: pointer;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 6px;
-      }
-      .tab.active {
-        background: var(--primary-color);
-        color: #fff;
-      }
-      .tab i.close {
-        font-weight: bold;
-        cursor: pointer;
-        font-size: 10px;
-      }
-      iframe {
-        width: 100%;
-        height: calc(100vh - 100px);
-        border: none;
-        display: none;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-      }
-      iframe.active {
-        display: block;
-      }
-      #proxy-address {
-        width: 500px;
-      }
-      #autocomplete {
-        position: absolute;
-        left: 130px;
-
-        margin: 0 auto;
-        margin-top: 10px;
-        background: var(--bg-color);
-        border-radius: var(--border-radius);
-        width: 100%;
-        max-width: 500px;
-        max-height: 240px;
-        overflow-y: auto;
-        z-index: 999;
-        border-top: none;
-        padding: 0.25rem 0;
-        animation: fadeIn 0.18s;
-        display: none;
-      }
-      #autocomplete div {
-        padding: 5px 5px;
-        cursor: pointer;
-        justify-content: start;
-        display: flex;
-        color: var(--text-color);
-        transition:
-          background 0.18s,
-          color 0.18s;
-        font-family: inherit;
-        letter-spacing: 0.01em;
-      }
-      #autocomplete div:last-child {
-        border-bottom: none;
-      }
-      #autocomplete div:hover,
-      #autocomplete div.active {
-        background: var(--primary-color);
-        color: #fff;
-      }
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-          transform: translateY(10px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-      .search-container {
-        position: relative;
-      }
-    </style> -->
 
     <script src="../js/nav.js"></script>
     <script src="../js/main.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", () => {
+        if (localStorage.getItem("showProxyWarning") !== "true") {
+          Swal.fire({
+            title: "Information",
+            text: "If you are experiencing issues with the pr0xxy, consider changing the pr0xxy and transport in settings.",
+            icon: "warning",
+            confirmButtonText: "Ok",
+            showClass: {
+              popup: "swal2-smooth-in",
+            },
+            hideClass: {
+              popup: "swal2-smooth-out",
+            },
+          });
+          localStorage.setItem("showProxyWarning", true);
+        }
         const prxBck = document.getElementById("prx-bck");
         const prxFwd = document.getElementById("prx-fwd");
         const prxRefresh = document.getElementById("prx-refresh");

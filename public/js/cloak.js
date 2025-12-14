@@ -47,7 +47,7 @@ const cloak = {
   init() {
     console.warn(
       logo,
-      "cloak.init() has been deprecated. theres no need to call it anymore."
+      "cloak.init() has been deprecated. theres no need to call it anymore.",
     );
   },
   getCloak() {
@@ -68,12 +68,34 @@ const cloak = {
     newWindow.document.body.appendChild(iframe);
     window.location.replace(url);
   },
+  blob(url) {
+    if (!url) url = "https://www.google.com/search?q=how+many+seconds+in+a+day";
+    const html = `
+       <!DOCTYPE html>
+       <html>
+       <head>
+         <title>Blob</title>
+         <style>
+           body { margin: 0; height: 100vh; }
+           iframe { width: 100%; height: 100%; border: none; }
+         </style>
+       </head>
+       <body>
+         <iframe src="${window.location.href}"></iframe>
+       </body>
+       </html>
+     `;
+    const blob = new Blob([html], { type: "text/html" });
+    const blobUrl = URL.createObjectURL(blob);
+    window.open(blobUrl);
+    window.location.replace(url);
+  },
   reset(reload = true) {
     localStorage.removeItem("cloakTitle");
     localStorage.removeItem("cloakFavicon");
     console.log(
       logo,
-      "Cloak reset. Title and favicon will remain unset until needed."
+      "Cloak reset. Title and favicon will remain unset until needed.",
     );
     if (reload === true) {
       window.location.reload();
@@ -90,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
     cloakSelect.addEventListener("change", () => {
       const selectedCloakName = cloakSelect.value;
       const selectedCloak = cloaks.find(
-        (cloak) => cloak.name === selectedCloakName
+        (cloak) => cloak.name === selectedCloakName,
       );
 
       if (selectedCloak) {
@@ -98,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(logo, `Set cloak to: ${selectedCloak.title}`);
       } else {
         console.error(
-          `Cloak '${selectedCloakName}' not found in cloaks array.`
+          `Cloak '${selectedCloakName}' not found in cloaks array.`,
         );
       }
     });

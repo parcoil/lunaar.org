@@ -3,186 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luna AI - &#x4c;&#x75;&#x6e;&#x61;&#x61;&#x72;</title>
+    <title>Luna AI - Chat</title>
     <link rel="icon" href="../media/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/ai-chat.css" />
     <link rel="stylesheet" href="../css/toastify.min.css" />
+    <meta
+      name="title"
+      content="Lunaar Educational Portal - Free Online Learning Resources"
+    />
+    <meta
+      name="description"
+      content="Lunaar Educational Portal - Access academic resources, study materials, and learning tools for students. Explore courses and educational content."
+    />
+    <meta
+      name="keywords"
+      content="educational portal, online learning, study materials, academic resources, free courses, student tools, learning platform, education, study guides"
+    />
+    <meta name="author" content="Parcoil" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lunaar.org/" />
+    <meta
+      property="og:title"
+      content="Lunaar Educational Portal - Free Online Learning Resources"
+    />
+    <meta
+      property="og:description"
+      content="Access academic resources, study materials, and learning tools for students. Explore courses and educational content."
+    />
+    <meta property="og:image" content="https://lunaar.org/media/logo.svg" />
+    <meta property="og:site_name" content="Lunaar" />
     <link
       rel="stylesheet"
       href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
     />
     <script src="../js/cloak.js"></script>
 
-    <style>
-      #modelSelector {
-        background-color: var(--bg-2-color);
-        border: 2px solid var(--border-color);
-        color: var(--text-color);
-        padding: 0.5rem 1rem;
-        border-radius: 12px;
-        font-family: inherit;
-        cursor: pointer;
-        transition: all 0.2s ease;
-      }
-      .chat-messages {
-        background-color: var(--bg-2-color);
-        border-radius: 15px;
-        padding: 1.5rem;
-        width: 100%;
-        max-width: 950px;
-        max-height: 530px;
-        overflow-y: auto;
-        display: flex;
-        flex-direction: column;
-        border: 2px solid var(--border-color);
-        gap: 1rem;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-      }
-
-      .message {
-        display: flex;
-        gap: 1rem;
-        align-items: flex-start;
-        animation: fadeIn 0.3s ease-in-out;
-      }
-
-      .message-avatar {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1rem;
-        flex-shrink: 0;
-      }
-
-      .ai-message .message-avatar {
-        background-color: var(--accent-color);
-        color: var(--text-color);
-      }
-
-      .user-message {
-        flex-direction: row-reverse;
-      }
-
-      .user-message .message-avatar {
-        background-color: var(--primary-color);
-        color: var(--text-color);
-      }
-
-      .message-content {
-        padding: 1rem;
-        border-radius: 12px;
-        max-width: 70%;
-        word-wrap: break-word;
-        background-color: var(--bg2-color);
-        border: 2px solid var(--border-color);
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-      }
-
-      .user-message .message-content {
-        background-color: var(--primary-color);
-        color: var(--text-color);
-        border-color: var(--primary-color);
-      }
-
-      .chat-interface {
-        width: 100%;
-        max-width: 900px;
-        margin-top: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-      }
-
-      .chat-container {
-        display: flex;
-        align-items: center;
-        border: 2px solid var(--border-color);
-        gap: 0.5rem;
-        background-color: var(--bg-2-color);
-        border-radius: 9999px;
-        padding: 0.5rem 1rem;
-        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
-      }
-
-      .chat-container input {
-        flex: 1;
-        border: none;
-        outline: none;
-        background: transparent;
-        color: var(--text-color);
-        font-size: 1rem;
-        font-family: inherit;
-        padding: 0.5rem;
-      }
-
-      .chat-container .send-button {
-        background-color: var(--primary-color);
-        color: var(--text-color);
-        border: none;
-        border-radius: 50%;
-        width: 38px;
-        height: 38px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        transition: all 0.2s ease;
-      }
-
-      .chat-container .send-button:hover {
-        background-color: var(--accent-color);
-        transform: scale(1.1);
-      }
-
-      .clear-chat-btn {
-        background-color: var(--bg-2-color);
-        color: var(--text-color);
-        border: 2px solid var(--border-color);
-        border-radius: 12px;
-        padding: 0.5rem 1rem;
-        font-size: 0.9rem;
-        cursor: pointer;
-        font-family: inherit;
-        transition: all 0.2s ease;
-      }
-
-      .clear-chat-btn:active {
-        scale: 0.95;
-      }
-
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-          transform: translateY(10px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-
-      .chat-messages::-webkit-scrollbar {
-        width: 6px;
-      }
-
-      @media (max-width: 768px) {
-        h1 {
-          font-size: 2rem;
-        }
-        .chat-messages {
-          max-height: 350px;
-          padding: 1rem;
-        }
-        .message-content {
-          max-width: 85%;
-        }
-      }
-    </style>
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -194,7 +54,6 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "G-W8NZMM8WN9");
     </script>
 
@@ -204,8 +63,57 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      //prettier-ignore
-      !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+      !(function (t, e) {
+        var o, n, p, r;
+        e.__SV ||
+          ((window.posthog = e),
+          (e._i = []),
+          (e.init = function (i, s, a) {
+            function g(t, e) {
+              var o = e.split(".");
+              (2 == o.length && ((t = t[o[0]]), (e = o[1])),
+                (t[e] = function () {
+                  t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+                }));
+            }
+            (((p = t.createElement("script")).type = "text/javascript"),
+              (p.crossOrigin = "anonymous"),
+              (p.async = !0),
+              (p.src =
+                s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") +
+                "/static/array.js"),
+              (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(
+                p,
+                r
+              ));
+            var u = e;
+            for (
+              void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
+                u.people = u.people || [],
+                u.toString = function (t) {
+                  var e = "posthog";
+                  return (
+                    "posthog" !== a && (e += "." + a),
+                    t || (e += " (stub)"),
+                    e
+                  );
+                },
+                u.people.toString = function () {
+                  return u.toString(1) + ".people (stub)";
+                },
+                o =
+                  "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(
+                    " "
+                  ),
+                n = 0;
+              n < o.length;
+              n++
+            )
+              g(u, o[n]);
+            e._i.push([i, s, a]);
+          }),
+          (e.__SV = 1));
+      })(document, window.posthog || []);
       posthog.init("phc_P06vTyQqGuoDZVvO6sIw4diVNQH1vcqahBmrqhx1TrO", {
         api_host: "https://us.i.posthog.com",
         defaults: "2025-05-24",
@@ -225,6 +133,7 @@
       <div class="gradiant3"></div>
     </div>
     <div id="particles-js"></div>
+
     <div class="side-ad left-ad">
       <script type="text/javascript">
         aclib.runBanner({
@@ -240,97 +149,442 @@
         });
       </script>
     </div>
-    <main>
-      <i
-        class="fa-solid fa-robot"
-        style="font-size: 42px; color: var(--primary-color)"
-      ></i>
-      <h1>Luna AI</h1>
-      <div class="ad">
-        <div>
-          <script type="text/javascript">
-            aclib.runBanner({
-              zoneId: "9059670",
-            });
-          </script>
-        </div>
-      </div>
-      <div class="chat-messages" id="chatMessages">
-        <div class="message ai-message">
-          <div class="message-avatar"><i class="fas fa-robot"></i></div>
-          <div class="message-content">
-            Hello! I'm your AI assistant Luna. How can I help you today?
-          </div>
-        </div>
-      </div>
 
-      <div class="chat-interface">
-        <div class="chat-container">
-          <i class="fa-solid fa-message" id="chat-icon"></i>
-          <form id="chatForm" class="chat-form" style="flex: 1; display: flex">
-            <input
-              id="messageInput"
-              type="text"
-              placeholder="Ask me anything..."
-              autocomplete="off"
-              required
-            />
-          </form>
-          <button
-            type="submit"
-            class="send-button"
-            id="sendButton"
-            form="chatForm"
-          >
-            <i
-              class="fa-solid fa-paper-plane-top"
-              style="transform: rotate(-90deg)"
-            ></i>
-          </button>
-        </div>
-        <div>
-          <div
-            style="
-              display: flex;
-              gap: 1rem;
-              margin-bottom: 0.5rem;
-              justify-content: center;
-            "
-          >
-            <select class="input" id="modelSelector">
+    <main>
+      <div class="chat-wrapper">
+        <div class="chat-header">
+          <div class="chat-header-left">
+            <div class="chat-avatar">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <div class="chat-header-info">
+              <h1>Luna AI</h1>
+              <p>Your intelligent assistant</p>
+            </div>
+          </div>
+          <div class="chat-header-right">
+            <select id="modelSelector">
               <option value="llama-3.1-8b-instant" selected>
-                Llama 3.1 8B Instant (Recommended)
+                Llama 3.1 8B
               </option>
               <option value="openai/gpt-oss-20b">GPT OSS 20B</option>
+              <option value="moonshotai/kimi-k2-instruct-0905">
+                Kimi K2 0905
+              </option>
+              <option value="qwen/qwen3-32b">Qwen3 32B</option>
             </select>
+            <button class="header-btn" onclick="window.aiChatbot.clearChat()">
+              <i class="fas fa-trash"></i>
+              <span style="display: none">Clear</span>
+            </button>
           </div>
-          <button class="clear-chat-btn" onclick="window.aiChatbot.clearChat()">
-            <i class="fas fa-trash"></i> Clear Chat
-          </button>
         </div>
-      </div>
-      <div class="ad">
-        <div>
-          <script type="text/javascript">
-            aclib.runBanner({
-              zoneId: "9059670",
-            });
-          </script>
+
+        <div class="chat-messages" id="chatMessages">
+          <div class="message ai-message">
+            <div class="message-avatar"><i class="fas fa-robot"></i></div>
+            <div class="message-content">
+              Hello! I'm Luna, your AI assistant. How can I help you today?
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-input-area">
+          <div class="chat-container">
+            <form id="chatForm" style="flex: 1; display: flex">
+              <input
+                id="messageInput"
+                type="text"
+                placeholder="Type your message..."
+                autocomplete="off"
+                required
+              />
+            </form>
+            <button
+              type="submit"
+              class="send-button"
+              id="sendButton"
+              form="chatForm"
+            >
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
         </div>
       </div>
     </main>
 
+    <style>
+      main {
+        margin-top: 0;
+        min-height: calc(100vh - 100px);
+        padding: 1rem;
+      }
+
+      .chat-wrapper {
+        width: 100%;
+        max-width: 1200px;
+        height: calc(100vh - 140px);
+        display: flex;
+        flex-direction: column;
+        background-color: var(--bg-2-color);
+        border: 2px solid var(--border-color);
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+      }
+
+      .chat-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.25rem 1.5rem;
+        background-color: var(--bg-2-color);
+        border-bottom: 2px solid var(--border-color);
+      }
+
+      .chat-header-left {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .chat-avatar {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background-color: var(--primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+      }
+
+      .chat-header-info h1 {
+        font-size: 1.5rem;
+        margin: 0;
+        color: var(--text-color);
+      }
+
+      .chat-header-info p {
+        font-size: 0.85rem;
+        margin: 0;
+        opacity: 0.9;
+        color: var(--text-color);
+      }
+
+      .chat-header-right {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+      }
+
+      .header-btn {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        border: 2px solid var(--border-color);
+        border-radius: 10px;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        font-family: inherit;
+        font-size: 0.9rem;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .header-btn:hover {
+        border-color: var(--primary-color);
+        background-color: var(--primary-color);
+      }
+
+      .header-btn:active {
+        transform: scale(0.95);
+      }
+
+      select,
+      ::picker(select) {
+        appearance: base-select;
+      }
+
+      #modelSelector {
+        background-color: var(--bg-color);
+        border: 2px solid var(--border-color);
+        color: var(--text-color);
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        font-family: inherit;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-size: 0.9rem;
+      }
+
+      #modelSelector:hover {
+        border-color: var(--primary-color);
+      }
+
+      .chat-messages {
+        flex: 1;
+        overflow-y: auto;
+        padding: 2rem;
+        background-color: var(--bg-color);
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+
+      .message {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+        animation: fadeIn 0.4s ease-out;
+        max-width: 85%;
+      }
+
+      .ai-message {
+        align-self: flex-start;
+      }
+
+      .user-message {
+        align-self: flex-end;
+        flex-direction: row-reverse;
+      }
+
+      .message-avatar {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        flex-shrink: 0;
+      }
+
+      .ai-message .message-avatar {
+        background-color: var(--accent-color);
+        color: var(--text-color);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .user-message .message-avatar {
+        background-color: var(--primary-color);
+        color: var(--text-color);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .message-content {
+        padding: 1rem 1.25rem;
+        border-radius: 18px;
+        word-wrap: break-word;
+        line-height: 1.6;
+        position: relative;
+      }
+
+      .ai-message .message-content {
+        background-color: var(--bg-2-color);
+        border: 2px solid var(--border-color);
+        border-top-left-radius: 4px;
+        color: var(--text-color);
+      }
+
+      .user-message .message-content {
+        background-color: var(--primary-color);
+        color: var(--text-color);
+        border-top-right-radius: 4px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .chat-input-area {
+        padding: 1.5rem;
+        background-color: var(--bg-2-color);
+        border-top: 2px solid var(--border-color);
+      }
+
+      .chat-container {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        background-color: var(--bg-color);
+        border: 2px solid var(--border-color);
+        border-radius: 25px;
+        padding: 0.75rem 1.25rem;
+        transition: border-color 0.2s ease;
+      }
+
+      .chat-container:focus-within {
+        border-color: var(--primary-color);
+      }
+
+      .chat-container input {
+        flex: 1;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: var(--text-color);
+        font-size: 1rem;
+        font-family: inherit;
+        padding: 0.25rem;
+      }
+
+      .chat-container input::placeholder {
+        color: var(--text-color);
+        opacity: 0.5;
+      }
+
+      .send-button {
+        background-color: var(--primary-color);
+        color: var(--text-color);
+        border: none;
+        border-radius: 50%;
+        width: 44px;
+        height: 44px;
+        min-width: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .send-button:hover {
+        background-color: var(--accent-color);
+        transform: scale(1.1);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+      }
+
+      .send-button:active {
+        transform: scale(0.95);
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .chat-messages::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      .chat-messages::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      .chat-messages::-webkit-scrollbar-thumb {
+        background: var(--primary-color);
+        border-radius: 10px;
+      }
+
+      .typing-indicator {
+        display: flex;
+        gap: 0.25rem;
+        padding: 1rem;
+      }
+
+      .typing-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: var(--text-color);
+        opacity: 0.4;
+        animation: typing 1.4s infinite;
+      }
+
+      .typing-dot:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+
+      .typing-dot:nth-child(3) {
+        animation-delay: 0.4s;
+      }
+
+      @keyframes typing {
+        0%,
+        60%,
+        100% {
+          transform: translateY(0);
+          opacity: 0.4;
+        }
+        30% {
+          transform: translateY(-10px);
+          opacity: 1;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .chat-wrapper {
+          height: calc(100vh - 120px);
+          border-radius: 15px;
+        }
+
+        .chat-header {
+          padding: 1rem;
+        }
+
+        .chat-header-info h1 {
+          font-size: 1.25rem;
+        }
+
+        .chat-header-info p {
+          font-size: 0.75rem;
+        }
+
+        .chat-avatar {
+          width: 40px;
+          height: 40px;
+        }
+
+        .chat-messages {
+          padding: 1rem;
+          gap: 1rem;
+        }
+
+        .message {
+          max-width: 90%;
+        }
+
+        .header-btn {
+          padding: 0.4rem 0.8rem;
+          font-size: 0.85rem;
+        }
+
+        #modelSelector {
+          font-size: 0.85rem;
+          padding: 0.4rem 0.8rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .chat-header-right {
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        .message-avatar {
+          width: 32px;
+          height: 32px;
+          min-width: 32px;
+          font-size: 0.9rem;
+        }
+
+        .message-content {
+          padding: 0.75rem 1rem;
+          font-size: 0.95rem;
+        }
+      }
+    </style>
+
     <div class="footer">
-      <a
-        href="&#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x67;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#x6d;&#x2f;&#x70;&#x61;&#x72;&#x63;&#x6f;&#x69;&#x6c;&#x2f;&#x6c;&#x75;&#x6e;&#x61;&#x61;&#x72;&#x2e;&#x6f;&#x72;&#x67;"
-        class="link"
-        >&#x47;&#x69;&#x74;&#x68;&#x75;&#x62;</a
-      >
-      <a
-        href="&#x68;&#x74;&#x74;&#x70;&#x73;&#x3a;&#x2f;&#x2f;&#x64;&#x73;&#x63;&#x2e;&#x67;&#x67;&#x2f;&#x70;&#x61;&#x72;&#x63;&#x6f;&#x69;&#x6c;"
-        class="link"
-        >&#x44;&#x69;&#x73;&#x63;&#x6f;&#x72;&#x64;</a
-      >
+      <a href="https://github.com/parcoil/lunaar.org" class="link">Github</a>
+      <a href="https://dsc.gg/parcoil" class="link">Discord</a>
     </div>
 
     <script type="text/javascript" src="../js/toastify-js.js"></script>

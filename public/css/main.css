@@ -5,7 +5,10 @@
   background-color: var(--primary-color);
   color: var(--text-color);
 }
-
+select,
+::picker(select) {
+  appearance: base-select;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -180,6 +183,9 @@ body {
   }
   .navbar-links {
     gap: 1rem;
+  }
+  .navbar-text {
+    display: none;
   }
 }
 @media (max-width: 705px) {
@@ -929,4 +935,21 @@ input:checked + .slider:before {
   #panicBtn {
     display: block;
   }
+}
+option {
+  display: flex;
+  justify-content: flex-start;
+  color: var(--text-color);
+  background: var(--bg-2-color);
+  padding: 10px;
+  transition: all 0.2s ease;
+}
+option:hover {
+  background: var(--primary-color);
+}
+::picker(select) {
+  border-radius: var(--border-radius);
+  border: 2px solid var(--border-color);
+  background-color: var(--bg-2-color);
+  scrollbar-color: var(--primary-color) var(--bg-2-color);
 }
