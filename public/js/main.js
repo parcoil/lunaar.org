@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(
       `%\u004C\u0075\u006E\u0061\u0061\u0072%c v7 - main.js Loaded`,
       "font-size: 16px; background-color: #9282fb; border-top-left-radius: 5px; border-bottom-left-radius: 5px; padding: 4px; font-weight: bold;",
-      "font-size: 16px; background-color: #090810; font-weight: bold; padding: 4px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;"
+      "font-size: 16px; background-color: #090810; font-weight: bold; padding: 4px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;",
     );
 
     const ascii = `
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     console.log(
       `%c${ascii}\ndiscord.gg/En5YJYWj3Z`,
-      "font-size: 24px; display: block; white-space: pre; text-align: center;"
+      "font-size: 24px; display: block; white-space: pre; text-align: center;",
     );
 
     window.ConsoleLogged = true;
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const background = localStorage.getItem("backgroundImage");
 
   if (!localStorage.getItem("defaultThemeSet")) {
-    theme = "christmas";
+    theme = "default";
     localStorage.setItem("theme", theme);
     localStorage.setItem("defaultThemeSet", "true");
     document.body.setAttribute("theme", theme);
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const leafContSSB = document.getElementById("leaf-container");
         if (leafContSSB) leafContSSB.remove();
         const leafScriptSSB = document.querySelector(
-          'script[src="../js/leafs.js"]'
+          'script[src="../js/leafs.js"]',
         );
         if (leafScriptSSB) leafScriptSSB.remove();
         window.leafsLoaded = false;
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const leafContGrey = document.getElementById("leaf-container");
         if (leafContGrey) leafContGrey.remove();
         const leafScriptGrey = document.querySelector(
-          'script[src="../js/leafs.js"]'
+          'script[src="../js/leafs.js"]',
         );
         if (leafScriptGrey) leafScriptGrey.remove();
         window.leafsLoaded = false;
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const leafContAudi = document.getElementById("leaf-container");
         if (leafContAudi) leafContAudi.remove();
         const leafScriptAudi = document.querySelector(
-          'script[src="../js/leafs.js"]'
+          'script[src="../js/leafs.js"]',
         );
         if (leafScriptAudi) leafScriptAudi.remove();
         window.leafsLoaded = false;
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const leafContStar = document.getElementById("leaf-container");
         if (leafContStar) leafContStar.remove();
         const leafScriptStar = document.querySelector(
-          'script[src="../js/leafs.js"]'
+          'script[src="../js/leafs.js"]',
         );
         if (leafScriptStar) leafScriptStar.remove();
         window.leafsLoaded = false;
@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const leafContDef = document.getElementById("leaf-container");
         if (leafContDef) leafContDef.remove();
         const leafScriptDef = document.querySelector(
-          'script[src="../js/leafs.js"]'
+          'script[src="../js/leafs.js"]',
         );
         if (leafScriptDef) leafScriptDef.remove();
         window.leafsLoaded = false;
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (footer) {
         footer.insertAdjacentHTML(
           "beforeend",
-          `<a class="link footer-version" href="https://github.com/&#x70;&#x61;&#x72;&#x63;&#x6f;&#x69;&#x6c;/&#x6c;&#x75;&#x6e;&#x61;&#x61;&#x72;.org"> v${ver.version}</a>`
+          `<a class="link footer-version" href="https://github.com/&#x70;&#x61;&#x72;&#x63;&#x6f;&#x69;&#x6c;/&#x6c;&#x75;&#x6e;&#x61;&#x61;&#x72;.org"> v${ver.version}</a>`,
         );
       }
     });
@@ -271,8 +271,6 @@ document.addEventListener("DOMContentLoaded", () => {
     <li>ADDED 613 GXMES!</li>
     <li>Added More page</li>
     <li>Reverted Scramjet as default</li>
-    <li>Added Christmas Theme 🎄</li>
-    <li>Added Christmas Countdown</li>
     <li>Added Animation to gxmes/apps page</li>
     <li>Performance Improvements</li>
     <li>Updated AI Page</li>
