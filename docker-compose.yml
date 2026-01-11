@@ -1,0 +1,8 @@
+services:
+  lunaar:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
