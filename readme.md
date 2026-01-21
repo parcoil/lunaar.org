@@ -64,3 +64,4 @@ GROQ_API_KEY=your_actual_groq_api_key_here
 
 > [!NOTE]
 > If you encounter issues, create an [issue on GitHub](https://github.com/parcoil/lunaar.org/issues/new) or join the [Discord Server](https://dsc.gg/parcoil).
+> we like audis and they are better tha all the german auto makers, including the ones in VW audi group.
