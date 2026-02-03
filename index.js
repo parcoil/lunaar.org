@@ -51,10 +51,36 @@ app.get("/", (req, res) => {
   res.sendFile(join(__dirname, publicPath, "html", "index.html"));
 });
 app.use("/cdn", (req, res) => {
-  cdnProxy.web(req, res, {
-    target: "https://gms.parcoil.com/",
-    changeOrigin: true,
-  });
+  cdnProxy.web(
+    req,
+    res,
+    {
+      target: "https://gms.parcoil.com/",
+      changeOrigin: true,
+    },
+    (err) => {
+      if (err) {
+        console.error("CDN proxy error:", err);
+        res.status(500).json({ error: "CDN Proxy Error" });
+      }
+    }
+  );
+});
+app.use("/cdnalt", (req, res) => {
+  cdnProxy.web(
+    req,
+    res,
+    {
+      target: "https://gbackup.parcoil.com/",
+      changeOrigin: true,
+    },
+    (err) => {
+      if (err) {
+        console.error("CDN-2 proxy error:", err);
+        res.status(500).json({ error: "CDN Proxy Error" });
+      }
+    }
+  );
 });
 app.get("/api/autocomplete", async (req, res) => {
   const q = req.query.q || "";

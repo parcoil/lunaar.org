@@ -365,30 +365,6 @@ body[theme="mocha"] {
   --border-radius: 25px;
 }
 
-/* Christmas Theme */
-/* body[theme="christmas"] {
-  --primary-color: #d32f2f;
-  --secondary-color: #2e7d32;
-  --accent-color: #ffd700;
-  --bg-2-color: #1a1a1a;
-  --bg-color: #0d1117;
-  --text-color: #ffffff;
-  --text-secondary-color: #cccccc;
-  --text-placeholder-color: #999999;
-  --border-color: #333333;
-} */
-body[theme="christmas"] {
-  --primary-color: #d32f2f;
-  --secondary-color: #2e7d32;
-  --accent-color: #019726;
-  --bg-2-color: #1a1a1a;
-  --bg-color: #0d1117;
-  --text-color: #ffffff;
-  --text-secondary-color: #cccccc;
-  --text-placeholder-color: #999999;
-  --border-color: #333333;
-}
-
 /* Orange Theme */
 body[theme="orange"] {
   --primary-color: #ffa600;
@@ -533,8 +509,6 @@ body[theme="sblue"] .card,
 body[theme="sblue"] .section-card,
 body[theme="mocha"] .card,
 body[theme="mocha"] .section-card,
-body[theme="christmas"] .card,
-body[theme="christmas"] .section-card,
 .section-card {
   background: rgba(255, 255, 255, 0.1) !important;
   backdrop-filter: blur(3px) brightness(80%) !important;
@@ -551,8 +525,7 @@ body[theme="brown"],
 body[theme="dg"],
 body[theme="moon"],
 body[theme="red"],
-body[theme="sblue"],
-body[theme="christmas"] {
+body[theme="sblue"] {
   --background-filter: blur(3px) brightness(80%);
 }
 

@@ -162,20 +162,48 @@ function renderGames(games) {
   });
 }
 
-Promise.all([
+// Load local games first
+Promise.allSettled([
   fetch("json/games.json").then((response) => response.json()),
   fetch("json/games-local.json").then((response) => response.json()),
-  fetch("/cdn/all").then((response) => response.json()),
 ])
-  .then(([gamesData1, gamesData2, gamesData3]) => {
-    allGames = [...gamesData1, ...gamesData2, ...gamesData3];
+  .then((results) => {
+    let gamesData1 = [];
+    let gamesData2 = [];
+
+    if (results[0].status === "fulfilled") {
+      gamesData1 = results[0].value;
+    } else {
+      console.error("Error loading games.json:", results[0].reason);
+    }
+
+    if (results[1].status === "fulfilled") {
+      gamesData2 = results[1].value;
+    } else {
+      console.error("Error loading games-local.json:", results[1].reason);
+    }
+
+    allGames = [...gamesData1, ...gamesData2];
     const searchInput = document.getElementById("search-input");
     searchInput.placeholder = `Search for ${allGames.length} games`;
     applyFilters();
+
+    fetch("/cdn/all")
+      .then((response) => response.json())
+      .then((cdnGames) => {
+        allGames = [...allGames, ...cdnGames];
+        searchInput.placeholder = `Search for ${allGames.length} games`;
+        applyFilters();
+      })
+      .catch((error) => {
+        console.error("Error loading /cdn/all:", error);
+        alert("Failed to load additional games from CDN.");
+        // CDN failed, but local games are already loaded
+      });
   })
   .catch((error) => {
-    console.error("Error loading games:", error);
-    // Fallback to local games if remote fails
+    console.error("Unexpected error loading local games:", error);
+    // Fallback to just games.json if local fails
     fetch("json/games.json")
       .then((response) => response.json())
       .then((data) => {
