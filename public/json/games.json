@@ -4289,5 +4289,33 @@
     "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/618.html",
     "proxy": false,
     "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Rev-Mixed",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/619.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/619.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Three Goblets",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/620.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/620.html",
+    "proxy": false,
+    "new": false
+  },
+  {
+    "name": "Friday Night Funkin': Gumballs",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/621.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/621.html",
+    "proxy": false,
+    "new": false
+  },
+   {
+    "name": "Oneshot (LEGACY)",
+    "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/622.png",
+    "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/622.html",
+    "proxy": false,
+    "new": false
   }
 ]
