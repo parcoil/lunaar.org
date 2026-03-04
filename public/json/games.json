@@ -1,5 +1,12 @@
 [
   {
+    "name": "Five Nights At Epstiens",
+    "image": "https://m.gjcdn.net/game-screenshot/500/47228814-kp4vg6jr-v4.webp",
+    "url": "https://harshulmoon.github.io/fnae.html",
+    "proxy": true,
+    "new": true
+  },
+  {
     "name": "Bowmasters",
     "image": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/0.png",
     "url": "https://cdn.jsdelivr.net/gh/gn-math/html@main/0.html",
